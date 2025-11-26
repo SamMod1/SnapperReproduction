@@ -8,7 +8,7 @@ bf <- 0.05 / N
 
 stages <- c('F1', 'F2', 'F3', 'F4', 'F5')
 #stages <- c('M1', 'M2', 'M3', 'M4')
-expression_file <- "C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/DESeq_final/NormalisedData/normalised_counts_gonad_length_scaled.tsv"
+expression_file <- "DataChapterTwo/DESeq/NormalisedData/normalised_counts_gonad_length_scaled.tsv"
 
 df <- read.csv(expression_file, sep = '\t', header = FALSE)
 df <- t(df)

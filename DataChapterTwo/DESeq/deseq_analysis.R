@@ -9,9 +9,9 @@ set.seed(1)
 ALPHA <- 0.05
 EXPRESSION_CUTOFF <- 1
 EXPRESSION_CUTOFF_FRACTION <- 1/2 # Fraction of samples with no expression to filter out
-COUNTS_FILE <- 'C:/Users/cfnsjm/Local Doccuments/PhD//Data/RNA-Seq/data/New Annot/salmon.merged.gene_counts_gonad.tsv'
+COUNTS_FILE <- 'DataChapterTwo/Data/salmon.merged.gene_counts_gonad.tsv'
 OUTPUT_DIR <- 'Results'
-SAMPLE_METADATA <- 'C:/Users/cfnsjm/Local Doccuments/PhD/Data/Non-sequencing data/Combined_Sampling_Data_with_juveniles.csv'
+SAMPLE_METADATA <- 'DataChapterOne/Data/sampling_data.csv'
 SAMPLES_TO_EXCLUDE = c('X90_M3', 'X13_M1')
 PLOT_WIDTH = 1200
 PLOT_HEIGHT = 800
