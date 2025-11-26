@@ -6,8 +6,8 @@ library(enrichplot)
 source("C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/GoEnrichment/go_enrichment.R") # Takes a little time to initialise but adds the function:
 
 
-OUTPUT <- "C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/DESeq_final/Results/SexGSEA"
-DESEQ_RESULTS <- "C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/DESeq_final/Results"
+OUTPUT <- "DataChapterOne/DESeq/Results/SexGSEA"
+DESEQ_RESULTS <- "DataChapterOne/DESeq/Results/"
 FOLD_CHANGE_CUTOFF <- 1
 ALPHA <- 0.05
 SEED <- 1

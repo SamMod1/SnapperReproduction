@@ -23,7 +23,7 @@ ALL_PS = [1.1928708820153783e-05, 1.19e-05, 2.46e-08, 5.81e-05, 4.19e-06,
           1.99e-10, 7.13e-10, 4.83e-09, 0.00829628588516882, 2.5669719456581822e-06]
 
 P_START = 0
-EXPRESSION_FILE = "C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/DESeq_final/NormalisedData/normalised_counts_gonad_length_scaled.tsv"
+EXPRESSION_FILE = "DataChapterTwo/DESeq/NormalisedData/normalised_counts_gonad_length_scaled.tsv"
 GROUPS = ['F1', 'F3', 'F4', 'F5', 'F2']
 #GROUPS = ['M3', 'M4', 'M2']
 COLOURS = ['tab:blue', 'tab:orange', 'tab:green', 'tab:red', 'tab:purple', 'tab:brown', 'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']

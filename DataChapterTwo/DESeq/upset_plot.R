@@ -6,8 +6,8 @@ source("C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/GoEnrichment/go_enric
 
 FOLD_CHANGE_CUTOFF <- 1
 ALPHA <- 0.05
-OUTPUT <- "C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/DESeq_final/Results"
-DESEQ_RESULTS <- "C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/DESeq_final/Results/F" #Females
+OUTPUT <- "DataChapterOne/DESeq/Results/"
+DESEQ_RESULTS <- "DataChapterOne/DESeq/Results/F" #Females
 # DESEQ_RESULTS <- "C:/Users/cfnsjm/Local Doccuments/PhD/Programming/R/DESeq_final/Results/M" #Males
 
 
