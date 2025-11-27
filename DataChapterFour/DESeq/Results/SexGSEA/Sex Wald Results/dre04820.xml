@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "https://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Jul 17, 2025 11:55:42 +0900 (GMT+9) -->
+<pathway name="path:dre04820" org="dre" number="04820"
+         title="Cytoskeleton in muscle cells"
+         image="https://www.kegg.jp/kegg/pathway/dre/dre04820.png"
+         link="https://www.kegg.jp/kegg-bin/show_pathway?dre04820">
+    <entry id="19" name="path:dre04820" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre04820">
+        <graphics name="TITLE:Cytoskeleton in muscle cells" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="171" y="58" width="262" height="25"/>
+    </entry>
+    <entry id="242" name="dre:286829" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:286829">
+        <graphics name="dag1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="359" y="363" width="46" height="17"/>
+    </entry>
+    <entry id="246" name="dre:641583" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:641583">
+        <graphics name="sspN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="508" y="354" width="46" height="17"/>
+    </entry>
+    <entry id="247" name="dre:100334126 dre:445292" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100334126+dre:445292">
+        <graphics name="sgcZ..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="457" y="364" width="46" height="17"/>
+    </entry>
+    <entry id="248" name="dre:324961" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:324961">
+        <graphics name="sgcD" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="457" y="347" width="46" height="17"/>
+    </entry>
+    <entry id="249" name="dre:559788" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:559788">
+        <graphics name="sgcB" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="364" width="46" height="17"/>
+    </entry>
+    <entry id="250" name="dre:368230 dre:557170" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:368230+dre:557170">
+        <graphics name="sgcE..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="347" width="46" height="17"/>
+    </entry>
+    <entry id="253" name="dre:100006255 dre:100141346 dre:100151255 dre:100331333 dre:100331874 dre:100536533 dre:386787 dre:394012 dre:407685 dre:445380 dre:503893 dre:541320 dre:541475 dre:555254 dre:567175 dre:570868 dre:572348" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100006255+dre:100141346+dre:100151255+dre:100331333+dre:100331874+dre:100536533+dre:386787+dre:394012+dre:407685+dre:445380+dre:503893+dre:541320+dre:541475+dre:555254+dre:567175+dre:570868+dre:572348">
+        <graphics name="itga7..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="219" y="354" width="46" height="17"/>
+    </entry>
+    <entry id="254" name="dre:100001836 dre:100499533 dre:335269 dre:556734 dre:556752 dre:563556 dre:564266 dre:570216 dre:797491" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100001836+dre:100499533+dre:335269+dre:556734+dre:556752+dre:563556+dre:564266+dre:570216+dre:797491">
+        <graphics name="itgb3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="265" y="354" width="46" height="17"/>
+    </entry>
+    <entry id="268" name="dre:560091" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:560091">
+        <graphics name="dsc2l" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="81" y="354" width="46" height="17"/>
+    </entry>
+    <entry id="269" name="dre:100884140 dre:560026" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100884140+dre:560026">
+        <graphics name="dsg2l..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="132" y="354" width="46" height="17"/>
+    </entry>
+    <entry id="270" name="dre:568060" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:568060">
+        <graphics name="pkp2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="80" y="397" width="46" height="17"/>
+    </entry>
+    <entry id="271" name="dre:100330886 dre:30415" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100330886+dre:30415">
+        <graphics name="jupB..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="132" y="387" width="46" height="17"/>
+    </entry>
+    <entry id="272" name="dre:324023 dre:327364" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:324023+dre:327364">
+        <graphics name="dspA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="132" y="404" width="46" height="17"/>
+    </entry>
+    <entry id="274" name="dre:30148 dre:572199 dre:768287" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:30148+dre:572199+dre:768287">
+        <graphics name="desma..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="132" y="450" width="46" height="17"/>
+    </entry>
+    <entry id="277" name="dre:140599 dre:393746" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:140599+dre:393746">
+        <graphics name="vim..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="80" y="450" width="46" height="17"/>
+    </entry>
+    <entry id="283" name="dre:323320 dre:58037 dre:641575" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:323320+dre:58037+dre:641575">
+        <graphics name="actn3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="242" y="438" width="46" height="17"/>
+    </entry>
+    <entry id="287" name="dre:323320 dre:58037 dre:641575" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:323320+dre:58037+dre:641575">
+        <graphics name="actn3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="590" y="463" width="46" height="17"/>
+    </entry>
+    <entry id="292" name="dre:100037383 dre:114457 dre:245703 dre:30468 dre:64267 dre:64269 dre:64272 dre:64273 dre:64609 dre:64610 dre:64611 dre:64612 dre:64613 dre:64614 dre:64615 dre:64616" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100037383+dre:114457+dre:245703+dre:30468+dre:64267+dre:64269+dre:64272+dre:64273+dre:64609+dre:64610+dre:64611+dre:64612+dre:64613+dre:64614+dre:64615+dre:64616">
+        <graphics name="atp1b4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="589" y="354" width="46" height="17"/>
+    </entry>
+    <entry id="294" name="dre:30148 dre:572199 dre:768287" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:30148+dre:572199+dre:768287">
+        <graphics name="desma..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="201" y="874" width="46" height="17"/>
+    </entry>
+    <entry id="295" name="dre:100321011 dre:567639" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100321011+dre:567639">
+        <graphics name="plecb..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="201" y="906" width="46" height="17"/>
+    </entry>
+    <entry id="296" name="dre:100009645" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100009645">
+        <graphics name="syne3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="201" y="938" width="46" height="17"/>
+    </entry>
+    <entry id="297" name="ko:K19346" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K19346">
+        <graphics name="K19346" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="306" y="938" width="46" height="17"/>
+    </entry>
+    <entry id="298" name="dre:195815" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:195815">
+        <graphics name="lmnA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="175" y="1013" width="46" height="17"/>
+    </entry>
+    <entry id="299" name="dre:195816 dre:195817 dre:30196" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:195816+dre:195817+dre:30196">
+        <graphics name="lmnb1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="227" y="1013" width="46" height="17"/>
+    </entry>
+    <entry id="300" name="dre:558212" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:558212">
+        <graphics name="emd" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="306" y="978" width="46" height="17"/>
+    </entry>
+    <entry id="301" name="dre:368360" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:368360">
+        <graphics name="lbr" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="359" y="978" width="46" height="17"/>
+    </entry>
+    <entry id="307" name="dre:567576 dre:569553" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:567576+dre:569553">
+        <graphics name="syne1b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="254" y="938" width="46" height="17"/>
+    </entry>
+    <entry id="308" name="dre:553188 dre:751759 dre:796761" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:553188+dre:751759+dre:796761">
+        <graphics name="sun1b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="201" y="978" width="46" height="17"/>
+    </entry>
+    <entry id="324" name="path:dre04512" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre04512">
+        <graphics name="ECM-receptor interaction" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="367" y="161" width="103" height="34"/>
+    </entry>
+    <entry id="325" name="dre:100004431 dre:100004688 dre:100006366 dre:100170785 dre:100330523 dre:100334431 dre:100463515 dre:100537277 dre:321212 dre:325675 dre:336471 dre:337158 dre:406548 dre:555202 dre:560145 dre:561679 dre:564099 dre:564821 dre:565402 dre:567110" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100004431+dre:100004688+dre:100006366+dre:100170785+dre:100330523+dre:100334431+dre:100463515+dre:100537277+dre:321212+dre:325675+dre:336471+dre:337158+dre:406548+dre:555202+dre:560145+dre:561679+dre:564099+dre:564821+dre:565402+dre:567110">
+        <graphics name="si:dkey-61l1.4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="212" y="140" width="46" height="17"/>
+    </entry>
+    <entry id="326" name="dre:64698" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:64698">
+        <graphics name="dcn" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="262" y="140" width="46" height="17"/>
+    </entry>
+    <entry id="327" name="ko:K06793" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K06793">
+        <graphics name="K06793" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="212" y="161" width="46" height="17"/>
+    </entry>
+    <entry id="328" name="dre:790915" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:790915">
+        <graphics name="elnA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="262" y="161" width="46" height="17"/>
+    </entry>
+    <entry id="329" name="dre:100535278 dre:556874 dre:564005 dre:567771 dre:569755" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100535278+dre:556874+dre:564005+dre:567771+dre:569755">
+        <graphics name="100535278..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="465" y="160" width="46" height="17"/>
+    </entry>
+    <entry id="330" name="dre:100005469" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100005469">
+        <graphics name="fn1a" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="518" y="208" width="46" height="17"/>
+    </entry>
+    <entry id="331" name="dre:100330961 dre:558217 dre:571786" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100330961+dre:558217+dre:571786">
+        <graphics name="fbn1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="238" y="208" width="46" height="17"/>
+    </entry>
+    <entry id="332" name="dre:100318854 dre:100332237 dre:100535241 dre:252849 dre:252850 dre:561901 dre:563429 dre:566325 dre:571317" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100318854+dre:100332237+dre:100535241+dre:252849+dre:252850+dre:561901+dre:563429+dre:566325+dre:571317">
+        <graphics name="comP..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="516" y="160" width="46" height="17"/>
+    </entry>
+    <entry id="333" name="dre:565429" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:565429">
+        <graphics name="hspg2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="208" width="46" height="17"/>
+    </entry>
+    <entry id="334" name="dre:323561 dre:553354 dre:553355 dre:554268 dre:554269 dre:554270" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:323561+dre:553354+dre:553355+dre:554268+dre:554269+dre:554270">
+        <graphics name="col4a5..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="303" y="208" width="46" height="17"/>
+    </entry>
+    <entry id="335" name="dre:322921 dre:562690 dre:570436" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:322921+dre:562690+dre:570436">
+        <graphics name="nid2a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="465" y="208" width="46" height="17"/>
+    </entry>
+    <entry id="336" name="dre:431774 dre:792197" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:431774+dre:792197">
+        <graphics name="bgnA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="465" y="234" width="46" height="17"/>
+    </entry>
+    <entry id="337" name="dre:30240 dre:553503" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:30240+dre:553503">
+        <graphics name="fbln1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="357" y="208" width="46" height="17"/>
+    </entry>
+    <entry id="338" name="dre:565373" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:565373">
+        <graphics name="agrN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="234" width="46" height="17"/>
+    </entry>
+    <entry id="339" name="dre:282667 dre:337077 dre:568593" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:282667+dre:337077+dre:568593">
+        <graphics name="sdc2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="357" y="234" width="46" height="17"/>
+    </entry>
+    <entry id="340" name="dre:323320 dre:58037 dre:641575" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:323320+dre:58037+dre:641575">
+        <graphics name="actn3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="445" y="663" width="46" height="17"/>
+    </entry>
+    <entry id="341" name="dre:100329862" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100329862">
+        <graphics name="myoT" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="497" y="593" width="46" height="17"/>
+    </entry>
+    <entry id="342" name="dre:334100 dre:393813 dre:436927 dre:794339" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:334100+dre:393813+dre:436927+dre:794339">
+        <graphics name="ldb3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="549" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="343" name="dre:387528 dre:399646 dre:445277 dre:450007 dre:567097" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:387528+dre:399646+dre:445277+dre:450007+dre:567097">
+        <graphics name="fhl1b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="549" y="663" width="46" height="17"/>
+    </entry>
+    <entry id="344" name="dre:100151586 dre:556258" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100151586+dre:556258">
+        <graphics name="zmp:0000000930..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="601" y="593" width="46" height="17"/>
+    </entry>
+    <entry id="345" name="dre:564246" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:564246">
+        <graphics name="zyx" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="653" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="346" name="dre:570526" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:570526">
+        <graphics name="synpo2a" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="653" y="593" width="46" height="17"/>
+    </entry>
+    <entry id="347" name="dre:100148802 dre:100536537 dre:393828 dre:393873 dre:436720 dre:572909" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100148802+dre:100536537+dre:393828+dre:393873+dre:436720+dre:572909">
+        <graphics name="myoz3a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="497" y="616" width="46" height="17"/>
+    </entry>
+    <entry id="348" name="dre:327029 dre:335083 dre:474327" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:327029+dre:335083+dre:474327">
+        <graphics name="capza1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="601" y="616" width="46" height="17"/>
+    </entry>
+    <entry id="349" name="dre:100006456 dre:100536330 dre:101882228 dre:407694 dre:492608 dre:556029 dre:557062 dre:557451 dre:560060 dre:566432 dre:793321 dre:798465" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100006456+dre:100536330+dre:101882228+dre:407694+dre:492608+dre:556029+dre:557062+dre:557451+dre:560060+dre:566432+dre:793321+dre:798465">
+        <graphics name="fmnl2a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="601" y="686" width="46" height="17"/>
+    </entry>
+    <entry id="350" name="dre:100535904 dre:497637 dre:559746" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100535904+dre:497637+dre:559746">
+        <graphics name="xirp2b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="653" y="616" width="46" height="17"/>
+    </entry>
+    <entry id="351" name="dre:100048921 dre:570288" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100048921+dre:570288">
+        <graphics name="flnca..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="497" y="663" width="46" height="17"/>
+    </entry>
+    <entry id="352" name="dre:550568 dre:554148 dre:560322 dre:561865 dre:569404" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:550568+dre:554148+dre:560322+dre:561865+dre:569404">
+        <graphics name="pdlim1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="549" y="616" width="46" height="17"/>
+    </entry>
+    <entry id="353" name="dre:571695" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:571695">
+        <graphics name="mypN" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="497" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="354" name="dre:100149766 dre:30441 dre:447869" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100149766+dre:30441+dre:447869">
+        <graphics name="tmod1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="601" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="355" name="dre:100149390 dre:664708 dre:795335" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100149390+dre:664708+dre:795335">
+        <graphics name="lmod3..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="653" y="663" width="46" height="17"/>
+    </entry>
+    <entry id="356" name="dre:100001684 dre:317731" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100001684+dre:317731">
+        <graphics name="ttn.1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="445" y="593" width="46" height="17"/>
+    </entry>
+    <entry id="357" name="dre:407658 dre:408256 dre:415164 dre:550445 dre:570210 dre:58114" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:407658+dre:408256+dre:415164+dre:550445+dre:570210+dre:58114">
+        <graphics name="acta1b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="221" y="590" width="46" height="17"/>
+    </entry>
+    <entry id="358" name="dre:541446 dre:566928" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:541446+dre:566928">
+        <graphics name="nebL..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="445" y="616" width="46" height="17"/>
+    </entry>
+    <entry id="359" name="dre:724004" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:724004">
+        <graphics name="nraP" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="445" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="360" name="dre:445358 dre:572412" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:445358+dre:572412">
+        <graphics name="obscna..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="723" y="664" width="46" height="17"/>
+    </entry>
+    <entry id="361" name="dre:394070 dre:415223 dre:436631 dre:445187 dre:563772 dre:664753" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:394070+dre:415223+dre:436631+dre:445187+dre:563772+dre:664753">
+        <graphics name="trim63b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="723" y="640" width="46" height="17"/>
+    </entry>
+    <entry id="362" name="dre:100144770 dre:100538326 dre:334269 dre:558671 dre:559614" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100144770+dre:100538326+dre:334269+dre:558671+dre:559614">
+        <graphics name="myom1b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="723" y="594" width="46" height="17"/>
+    </entry>
+    <entry id="363" name="dre:447832" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:447832">
+        <graphics name="capn3a" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="775" y="664" width="46" height="17"/>
+    </entry>
+    <entry id="364" name="dre:30095 dre:563955 dre:794752" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:30095+dre:563955+dre:794752">
+        <graphics name="ckmA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="775" y="617" width="46" height="17"/>
+    </entry>
+    <entry id="365" name="dre:334116 dre:378963 dre:393668 dre:402874" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:334116+dre:378963+dre:393668+dre:402874">
+        <graphics name="eno1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="775" y="594" width="46" height="17"/>
+    </entry>
+    <entry id="366" name="dre:100151027 dre:101886079 dre:564159" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100151027+dre:101886079+dre:564159">
+        <graphics name="ankrd1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="549" y="686" width="46" height="17"/>
+    </entry>
+    <entry id="367" name="dre:100330772 dre:333997 dre:393867 dre:556578 dre:571355" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100330772+dre:333997+dre:393867+dre:556578+dre:571355">
+        <graphics name="ampd2a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="775" y="640" width="46" height="17"/>
+    </entry>
+    <entry id="368" name="dre:492356 dre:541384 dre:556489 dre:751793" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:492356+dre:541384+dre:556489+dre:751793">
+        <graphics name="mybpc1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="95" y="614" width="46" height="17"/>
+    </entry>
+    <entry id="369" name="dre:321053 dre:393530" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321053+dre:393530">
+        <graphics name="mybphb..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="146" y="614" width="46" height="17"/>
+    </entry>
+    <entry id="370" name="dre:378726 dre:393871 dre:450005 dre:791132" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:378726+dre:393871+dre:450005+dre:791132">
+        <graphics name="csrp1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="549" y="593" width="46" height="17"/>
+    </entry>
+    <entry id="371" name="ko:K09255" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K09255">
+        <graphics name="K09255" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="723" y="617" width="46" height="17"/>
+    </entry>
+    <entry id="372" name="dre:100001337 dre:100002040 dre:100008070 dre:100008376 dre:100124599 dre:100149148 dre:100329748 dre:100537594 dre:100884147 dre:108181090 dre:141375018 dre:246275 dre:30616 dre:321552 dre:333938 dre:334274 dre:386711 dre:393472 dre:554168 dre:555454 dre:560945 dre:561431 dre:58142 dre:768300 dre:799300" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100001337+dre:100002040+dre:100008070+dre:100008376+dre:100124599+dre:100149148+dre:100329748+dre:100537594+dre:100884147+dre:108181090+dre:141375018+dre:246275+dre:30616+dre:321552+dre:333938+dre:334274+dre:386711+dre:393472+dre:554168+dre:555454+dre:560945+dre:561431+dre:58142+dre:768300+dre:799300">
+        <graphics name="smyhc3..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="95" y="590" width="46" height="17"/>
+    </entry>
+    <entry id="373" name="dre:100037358 dre:100537244 dre:141385692 dre:30429 dre:30592 dre:336165 dre:406493 dre:447930 dre:450006 dre:574004 dre:64671 dre:677750" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100037358+dre:100537244+dre:141385692+dre:30429+dre:30592+dre:336165+dre:406493+dre:447930+dre:450006+dre:574004+dre:64671+dre:677750">
+        <graphics name="zgc:163073..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="146" y="590" width="46" height="17"/>
+    </entry>
+    <entry id="374" name="dre:353247 dre:415175" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:353247+dre:415175">
+        <graphics name="tnnc1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="221" y="615" width="46" height="17"/>
+    </entry>
+    <entry id="375" name="dre:353247 dre:415175" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:353247+dre:415175">
+        <graphics name="tnnc1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="220" y="663" width="46" height="17"/>
+    </entry>
+    <entry id="376" name="dre:100002038 dre:58082" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100002038+dre:58082">
+        <graphics name="tnnc2.1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="221" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="377" name="dre:415191 dre:436902 dre:449825 dre:494070 dre:553694 dre:558408 dre:563091 dre:751665" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:415191+dre:436902+dre:449825+dre:494070+dre:553694+dre:558408+dre:563091+dre:751665">
+        <graphics name="tnni4b.2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="267" y="615" width="46" height="17"/>
+    </entry>
+    <entry id="378" name="ko:K12044" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K12044">
+        <graphics name="K12044" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="266" y="663" width="46" height="17"/>
+    </entry>
+    <entry id="379" name="dre:394068 dre:402809 dre:445029 dre:492493 dre:494164 dre:550249" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:394068+dre:402809+dre:445029+dre:492493+dre:494164+dre:550249">
+        <graphics name="tnni2a.2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="267" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="380" name="dre:558627" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:558627">
+        <graphics name="tnnt1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="313" y="615" width="46" height="17"/>
+    </entry>
+    <entry id="381" name="dre:100331199 dre:353248 dre:556703 dre:574000 dre:58071" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100331199+dre:353248+dre:556703+dre:574000+dre:58071">
+        <graphics name="tnnt2b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="312" y="663" width="46" height="17"/>
+    </entry>
+    <entry id="382" name="dre:100003572 dre:58084" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100003572+dre:58084">
+        <graphics name="tnnt3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="313" y="639" width="46" height="17"/>
+    </entry>
+    <entry id="383" name="dre:30324 dre:393908" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:30324+dre:393908">
+        <graphics name="tpmA..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="221" y="688" width="46" height="17"/>
+    </entry>
+    <entry id="384" name="dre:415209" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:415209">
+        <graphics name="tpm2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="272" y="688" width="46" height="17"/>
+    </entry>
+    <entry id="385" name="dre:373076" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:373076">
+        <graphics name="tpm3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="323" y="688" width="46" height="17"/>
+    </entry>
+    <entry id="386" name="dre:324244 dre:406437" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:324244+dre:406437">
+        <graphics name="tpm4b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="375" y="688" width="46" height="17"/>
+    </entry>
+    <entry id="392" name="path:dre04814" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre04814">
+        <graphics name="Motor proteins" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="121" y="668" width="101" height="34"/>
+    </entry>
+    <entry id="241" name="dre:286829" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:286829">
+        <graphics name="dag1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="359" y="347" width="46" height="17"/>
+    </entry>
+    <entry id="244" name="dre:100049705 dre:569971" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100049705+dre:569971">
+        <graphics name="lama2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="358" y="306" width="46" height="17"/>
+    </entry>
+    <entry id="263" name="dre:100334859 dre:552980" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100334859+dre:552980">
+        <graphics name="vclB..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="242" y="403" width="46" height="17"/>
+    </entry>
+    <entry id="264" name="dre:100333114 dre:494453 dre:556842" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100333114+dre:494453+dre:556842">
+        <graphics name="tln2b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="242" y="386" width="46" height="17"/>
+    </entry>
+    <entry id="261" name="dre:57934 dre:57935" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:57934+dre:57935">
+        <graphics name="actb1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="242" y="471" width="46" height="17"/>
+    </entry>
+    <entry id="257" name="dre:83773" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:83773">
+        <graphics name="dmd" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="359" y="397" width="46" height="17"/>
+    </entry>
+    <entry id="258" name="dre:100331323 dre:100332905 dre:431722" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100331323+dre:100332905+dre:431722">
+        <graphics name="sntb2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="336" y="414" width="46" height="17"/>
+    </entry>
+    <entry id="259" name="dre:794932" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:794932">
+        <graphics name="dtnA" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="382" y="414" width="46" height="17"/>
+    </entry>
+    <entry id="278" name="dre:100048921 dre:570288" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100048921+dre:570288">
+        <graphics name="flnca..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="434" y="398" width="46" height="17"/>
+    </entry>
+    <entry id="260" name="dre:30148 dre:572199 dre:768287" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:30148+dre:572199+dre:768287">
+        <graphics name="desma..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="361" y="472" width="46" height="17"/>
+    </entry>
+    <entry id="281" name="dre:553383" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:553383">
+        <graphics name="sptan1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="566" y="412" width="46" height="17"/>
+    </entry>
+    <entry id="282" name="dre:100003123 dre:553451 dre:558044 dre:569585" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100003123+dre:553451+dre:558044+dre:569585">
+        <graphics name="sptbn4a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="612" y="412" width="46" height="17"/>
+    </entry>
+    <entry id="286" name="dre:57934 dre:57935" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:57934+dre:57935">
+        <graphics name="actb1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="591" y="488" width="46" height="17"/>
+    </entry>
+    <entry id="280" name="dre:100126016 dre:103909035" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100126016+dre:103909035">
+        <graphics name="ank3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="589" y="384" width="46" height="17"/>
+    </entry>
+    <entry id="285" name="dre:378726 dre:393871 dre:450005 dre:791132" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:378726+dre:393871+dre:450005+dre:791132">
+        <graphics name="csrp1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="590" y="437" width="46" height="17"/>
+    </entry>
+    <entry id="255" name="dre:100049705 dre:569971" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100049705+dre:569971">
+        <graphics name="lama2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="242" y="313" width="46" height="17"/>
+    </entry>
+    <entry id="420" name="dre:406520" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:406520">
+        <graphics name="tmem43" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="254" y="978" width="46" height="17"/>
+    </entry>
+    <entry id="623" name="ko:K28413" type="ortholog"
+        link="https://www.kegg.jp/dbget-bin/www_bget?K28413">
+        <graphics name="K28413" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="rectangle" x="601" y="663" width="46" height="17"/>
+    </entry>
+</pathway>

@@ -1,0 +1,6 @@
+"ID","Description","setSize","enrichmentScore","NES","pvalue","p.adjust","qvalue","rank","leading_edge","core_enrichment"
+"GO:1901700","response to oxygen-containing compound",10,-0.699745760797042,-2.40029022540793,0.000105268729266625,0.0133691286168614,0.00997282698315395,40,"tags=80%, list=22%, signal=66%","mrc1a/slc30a8/slc29a1a/nefla/rapgef3/vwf/g11052/g11053"
+"GO:0042221","response to chemical",23,-0.491330443882555,-2.29153035325952,0.000345474731187963,0.0219376454304357,0.0163645925299562,40,"tags=57%, list=22%, signal=51%","mrc1a/slc30a8/sema3c/slc29a1a/pgam2/nefla/si:dkey-22o22.2/rapgef3/dnajc3a/scg2a/vwf/g11052/g11053"
+"GO:0006793","phosphorus metabolic process",10,-0.625885263359043,-2.14693159149172,0.00101551419272876,0.032242575619138,0.0240516519330495,28,"tags=60%, list=15%, signal=54%","slc20a1a/pgam2/nefla/scg2a/g11052/g11053"
+"GO:0006796","phosphate-containing compound metabolic process",10,-0.625885263359043,-2.14693159149172,0.00101551419272876,0.032242575619138,0.0240516519330495,28,"tags=60%, list=15%, signal=54%","slc20a1a/pgam2/nefla/scg2a/g11052/g11053"
+"GO:0006950","response to stress",16,-0.521438661006021,-2.13447839546415,0.00154439967263435,0.0392277516849124,0.029262309586756,44,"tags=62%, list=24%, signal=52%","qpct/mrc1a/slc30a8/slc29a1a/nefla/dnajc3a/scg2a/vwf/g11052/g11053"

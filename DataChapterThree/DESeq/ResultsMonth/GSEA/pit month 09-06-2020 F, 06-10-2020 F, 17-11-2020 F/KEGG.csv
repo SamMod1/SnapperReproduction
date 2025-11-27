@@ -1,0 +1,2 @@
+"ID","Description","setSize","enrichmentScore","NES","pvalue","p.adjust","qvalue","rank","leading_edge","core_enrichment"
+"dre04110","Cell cycle",12,-0.495489483319611,-1.88548506164906,0.00978965545721365,0.0293689663716409,0.020609800962555,117,"tags=83%, list=37%, signal=55%","286747/58025/406353/280649/192323/337598/80973/192338/566409/192333"

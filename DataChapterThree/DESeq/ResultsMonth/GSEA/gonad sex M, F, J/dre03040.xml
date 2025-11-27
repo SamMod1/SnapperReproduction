@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<!DOCTYPE pathway SYSTEM "https://www.kegg.jp/kegg/xml/KGML_v0.7.2_.dtd">
+<!-- Creation date: Jun 7, 2021 10:02:45 +0900 (GMT+9) -->
+<pathway name="path:dre03040" org="dre" number="03040"
+         title="Spliceosome"
+         image="https://www.kegg.jp/kegg/pathway/dre/dre03040.png"
+         link="https://www.kegg.jp/kegg-bin/show_pathway?dre03040">
+    <entry id="75" name="path:dre03040" type="map"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre03040">
+        <graphics name="TITLE:Spliceosome" fgcolor="#000000" bgcolor="#FFFFFF"
+             type="roundrectangle" x="101" y="58" width="122" height="25"/>
+    </entry>
+    <entry id="101" name="dre:321948" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321948">
+        <graphics name="ddx46" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="62" y="276" width="46" height="17"/>
+    </entry>
+    <entry id="102" name="dre:393917" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393917">
+        <graphics name="ddx39b" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="62" y="296" width="46" height="17"/>
+    </entry>
+    <entry id="106" name="dre:336645" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:336645">
+        <graphics name="dhx16" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="442" y="565" width="46" height="17"/>
+    </entry>
+    <entry id="111" name="dre:606595" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:606595">
+        <graphics name="dhx8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="571" y="310" width="46" height="17"/>
+    </entry>
+    <entry id="112" name="dre:321931" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321931">
+        <graphics name="dhx15" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="520" y="189" width="46" height="17"/>
+    </entry>
+    <entry id="107" name="dre:393850" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393850">
+        <graphics name="dhx38" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="587" y="412" width="46" height="17"/>
+    </entry>
+    <entry id="108" name="dre:494534" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:494534">
+        <graphics name="cdc40" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="587" y="432" width="46" height="17"/>
+    </entry>
+    <entry id="201" name="dre:606595" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:606595">
+        <graphics name="dhx8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="636" y="412" width="46" height="17"/>
+    </entry>
+    <entry id="202" name="dre:492495" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:492495">
+        <graphics name="slu7" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="636" y="432" width="46" height="17"/>
+    </entry>
+    <entry id="205" name="dre:431751" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:431751">
+        <graphics name="prpf18" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="587" y="452" width="46" height="17"/>
+    </entry>
+    <entry id="298" name="dre:393480" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393480">
+        <graphics name="eftud2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="171" y="569" width="46" height="17"/>
+    </entry>
+    <entry id="299" name="dre:799690" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:799690">
+        <graphics name="snrnp200" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="171" y="548" width="46" height="17"/>
+    </entry>
+    <entry id="300" name="dre:334283" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:334283">
+        <graphics name="ddx23" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="88" y="440" width="46" height="17"/>
+    </entry>
+    <entry id="301" name="dre:393480" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393480">
+        <graphics name="eftud2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="621" y="331" width="46" height="17"/>
+    </entry>
+    <entry id="302" name="dre:799690" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:799690">
+        <graphics name="snrnp200" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="621" y="310" width="46" height="17"/>
+    </entry>
+    <entry id="217" name="dre:445398" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:445398">
+        <graphics name="snrnp70" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="721" width="46" height="17"/>
+    </entry>
+    <entry id="218" name="dre:324121" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:324121">
+        <graphics name="snrpa" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="738" width="46" height="17"/>
+    </entry>
+    <entry id="219" name="dre:192330" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:192330">
+        <graphics name="snrpc" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="755" width="46" height="17"/>
+    </entry>
+    <entry id="220" name="dre:321555" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321555">
+        <graphics name="prpf40a" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="793" width="46" height="17"/>
+    </entry>
+    <entry id="221" name="dre:327336 dre:568088" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:327336+dre:568088">
+        <graphics name="rbm25b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="813" width="46" height="17"/>
+    </entry>
+    <entry id="222" name="dre:192331 dre:327011 dre:393979 dre:402966 dre:415171 dre:445404 dre:447922 dre:550244" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:192331+dre:327011+dre:393979+dre:402966+dre:415171+dre:445404+dre:447922+dre:550244">
+        <graphics name="snrpd1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="704" width="46" height="17"/>
+    </entry>
+    <entry id="223" name="dre:322206" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:322206">
+        <graphics name="ddx5" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="833" width="46" height="17"/>
+    </entry>
+    <entry id="224" name="dre:323071 dre:797473" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:323071+dre:797473">
+        <graphics name="tcerg1a..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="853" width="46" height="17"/>
+    </entry>
+    <entry id="225" name="dre:192331 dre:327011 dre:393979 dre:402966 dre:415171 dre:445404 dre:447922 dre:550244" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:192331+dre:327011+dre:393979+dre:402966+dre:415171+dre:445404+dre:447922+dre:550244">
+        <graphics name="snrpd1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="704" width="46" height="17"/>
+    </entry>
+    <entry id="226" name="dre:492511" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:492511">
+        <graphics name="snrpa1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="721" width="46" height="17"/>
+    </entry>
+    <entry id="227" name="dre:402896" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:402896">
+        <graphics name="snrpb2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="738" width="46" height="17"/>
+    </entry>
+    <entry id="228" name="dre:394018 dre:446168 dre:796388" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:394018+dre:446168+dre:796388">
+        <graphics name="sf3a2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="754" width="46" height="17"/>
+    </entry>
+    <entry id="229" name="dre:192318 dre:286774 dre:406824 dre:415157 dre:436751 dre:446117 dre:503932 dre:570994" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:192318+dre:286774+dre:406824+dre:415157+dre:436751+dre:446117+dre:503932+dre:570994">
+        <graphics name="sf3b4..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="771" width="46" height="17"/>
+    </entry>
+    <entry id="230" name="dre:192328 dre:402989 dre:557103" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:192328+dre:402989+dre:557103">
+        <graphics name="u2af1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="813" width="46" height="17"/>
+    </entry>
+    <entry id="231" name="dre:415211 dre:562370" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:415211+dre:562370">
+        <graphics name="puf60b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="833" width="46" height="17"/>
+    </entry>
+    <entry id="232" name="dre:572679" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:572679">
+        <graphics name="smndc1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="853" width="46" height="17"/>
+    </entry>
+    <entry id="233" name="dre:393889" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393889">
+        <graphics name="rbm17" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="873" width="46" height="17"/>
+    </entry>
+    <entry id="234" name="dre:337851" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:337851">
+        <graphics name="cherp" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="893" width="46" height="17"/>
+    </entry>
+    <entry id="235" name="dre:100037380 dre:567461" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100037380+dre:567461">
+        <graphics name="zgc:163098..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="913" width="46" height="17"/>
+    </entry>
+    <entry id="236" name="dre:321931" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321931">
+        <graphics name="dhx15" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="933" width="46" height="17"/>
+    </entry>
+    <entry id="237" name="dre:110440214 dre:192325" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:110440214+dre:192325">
+        <graphics name="ncbp1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="545" y="680" width="46" height="17"/>
+    </entry>
+    <entry id="238" name="dre:321860 dre:334490 dre:378453 dre:393467 dre:393968 dre:406264 dre:406267 dre:406352 dre:555643 dre:566326 dre:751729" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321860+dre:334490+dre:378453+dre:393467+dre:393968+dre:406264+dre:406267+dre:406352+dre:555643+dre:566326+dre:751729">
+        <graphics name="rbmX..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="545" y="700" width="46" height="17"/>
+    </entry>
+    <entry id="239" name="dre:100145909 dre:321872 dre:323700 dre:335396 dre:368925 dre:393388 dre:393505 dre:393565 dre:394172 dre:402972 dre:405835 dre:406288 dre:406691 dre:406775 dre:436883 dre:494133 dre:564283 dre:572211" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100145909+dre:321872+dre:323700+dre:335396+dre:368925+dre:393388+dre:393505+dre:393565+dre:394172+dre:402972+dre:405835+dre:406288+dre:406691+dre:406775+dre:436883+dre:494133+dre:564283+dre:572211">
+        <graphics name="srsf3b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="545" y="720" width="46" height="17"/>
+    </entry>
+    <entry id="240" name="dre:321544" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321544">
+        <graphics name="prpf19" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="680" width="46" height="17"/>
+    </entry>
+    <entry id="241" name="dre:394059" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:394059">
+        <graphics name="cdc5l" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="697" width="46" height="17"/>
+    </entry>
+    <entry id="242" name="dre:493614" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:493614">
+        <graphics name="bcas2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="714" width="46" height="17"/>
+    </entry>
+    <entry id="243" name="dre:100004402" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100004402">
+        <graphics name="plrg1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="731" width="46" height="17"/>
+    </entry>
+    <entry id="244" name="dre:415140" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:415140">
+        <graphics name="cwc15" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="748" width="46" height="17"/>
+    </entry>
+    <entry id="245" name="dre:393840" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393840">
+        <graphics name="ctnnbl1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="765" width="46" height="17"/>
+    </entry>
+    <entry id="246" name="dre:100126123 dre:100535101 dre:30671 dre:393586 dre:560210 dre:562935 dre:573376 dre:798846" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100126123+dre:100535101+dre:30671+dre:393586+dre:560210+dre:562935+dre:573376+dre:798846">
+        <graphics name="hsp70.1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="782" width="46" height="17"/>
+    </entry>
+    <entry id="247" name="dre:796523" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:796523">
+        <graphics name="pqbp1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="806" width="46" height="17"/>
+    </entry>
+    <entry id="248" name="dre:387600 dre:393920 dre:445043" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:387600+dre:393920+dre:445043">
+        <graphics name="xab2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="881" width="46" height="17"/>
+    </entry>
+    <entry id="249" name="dre:402950" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:402950">
+        <graphics name="wbp11" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="823" width="46" height="17"/>
+    </entry>
+    <entry id="250" name="dre:321852" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321852">
+        <graphics name="snw1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="861" width="46" height="17"/>
+    </entry>
+    <entry id="251" name="dre:570205" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:570205">
+        <graphics name="isy1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="901" width="46" height="17"/>
+    </entry>
+    <entry id="252" name="dre:558042" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:558042">
+        <graphics name="ppil1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="921" width="46" height="17"/>
+    </entry>
+    <entry id="253" name="dre:550373" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:550373">
+        <graphics name="ppiE" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="941" width="46" height="17"/>
+    </entry>
+    <entry id="254" name="dre:793027" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:793027">
+        <graphics name="ccdc12" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="961" width="46" height="17"/>
+    </entry>
+    <entry id="255" name="dre:406495" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:406495">
+        <graphics name="rbm22" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="981" width="46" height="17"/>
+    </entry>
+    <entry id="256" name="dre:393436" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393436">
+        <graphics name="aqr" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="1021" width="46" height="17"/>
+    </entry>
+    <entry id="257" name="dre:100535720 dre:393669 dre:415167 dre:563948 dre:566017 dre:573047 dre:57924" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100535720+dre:393669+dre:415167+dre:563948+dre:566017+dre:573047+dre:57924">
+        <graphics name="lsm3..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="722" width="46" height="17"/>
+    </entry>
+    <entry id="258" name="dre:192331 dre:327011 dre:393979 dre:402966 dre:415171 dre:445404 dre:447922 dre:550244" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:192331+dre:327011+dre:393979+dre:402966+dre:415171+dre:445404+dre:447922+dre:550244">
+        <graphics name="snrpd1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="739" width="46" height="17"/>
+    </entry>
+    <entry id="259" name="dre:393476" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393476">
+        <graphics name="prpf31" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="805" width="46" height="17"/>
+    </entry>
+    <entry id="260" name="dre:494165" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:494165">
+        <graphics name="ppiH" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="789" width="46" height="17"/>
+    </entry>
+    <entry id="261" name="dre:326944" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:326944">
+        <graphics name="prpf4" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="772" width="46" height="17"/>
+    </entry>
+    <entry id="262" name="dre:403072" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:403072">
+        <graphics name="prpf3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="755" width="46" height="17"/>
+    </entry>
+    <entry id="263" name="dre:321114 dre:393282" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:321114+dre:393282">
+        <graphics name="snu13b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="822" width="46" height="17"/>
+    </entry>
+    <entry id="264" name="dre:192331 dre:327011 dre:393979 dre:402966 dre:415171 dre:445404 dre:447922 dre:550244" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:192331+dre:327011+dre:393979+dre:402966+dre:415171+dre:445404+dre:447922+dre:550244">
+        <graphics name="snrpd1..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="704" width="46" height="17"/>
+    </entry>
+    <entry id="265" name="dre:393480" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393480">
+        <graphics name="eftud2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="721" width="46" height="17"/>
+    </entry>
+    <entry id="266" name="dre:799690" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:799690">
+        <graphics name="snrnp200" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="738" width="46" height="17"/>
+    </entry>
+    <entry id="267" name="dre:323855" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:323855">
+        <graphics name="prpf6" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="755" width="46" height="17"/>
+    </entry>
+    <entry id="268" name="dre:393951" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393951">
+        <graphics name="prpf8" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="772" width="46" height="17"/>
+    </entry>
+    <entry id="269" name="dre:393292" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393292">
+        <graphics name="snrnp40" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="789" width="46" height="17"/>
+    </entry>
+    <entry id="270" name="dre:334283" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:334283">
+        <graphics name="ddx23" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="806" width="46" height="17"/>
+    </entry>
+    <entry id="271" name="dre:449780" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:449780">
+        <graphics name="txnl4a" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="823" width="46" height="17"/>
+    </entry>
+    <entry id="272" name="dre:436976" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:436976">
+        <graphics name="snrnp27" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="289" y="872" width="46" height="17"/>
+    </entry>
+    <entry id="273" name="dre:790924" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:790924">
+        <graphics name="usp39" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="289" y="889" width="46" height="17"/>
+    </entry>
+    <entry id="274" name="dre:436946" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:436946">
+        <graphics name="sart1" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="289" y="906" width="46" height="17"/>
+    </entry>
+    <entry id="275" name="dre:327495 dre:368893" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:327495+dre:368893">
+        <graphics name="acin1b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="480" y="680" width="46" height="17"/>
+    </entry>
+    <entry id="276" name="dre:394053" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:394053">
+        <graphics name="eif4a3" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="480" y="697" width="46" height="17"/>
+    </entry>
+    <entry id="277" name="dre:503767" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:503767">
+        <graphics name="rbm8a" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="480" y="714" width="46" height="17"/>
+    </entry>
+    <entry id="278" name="dre:100005893" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:100005893">
+        <graphics name="magoh" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="480" y="731" width="46" height="17"/>
+    </entry>
+    <entry id="279" name="dre:393917" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:393917">
+        <graphics name="ddx39b" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="480" y="748" width="46" height="17"/>
+    </entry>
+    <entry id="281" name="dre:368417 dre:373077 dre:445302 dre:560127" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:368417+dre:373077+dre:445302+dre:560127">
+        <graphics name="thoc2..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="480" y="765" width="46" height="17"/>
+    </entry>
+    <entry id="282" name="dre:324476" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:324476">
+        <graphics name="zmat2" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="289" y="932" width="46" height="17"/>
+    </entry>
+    <entry id="283" name="dre:406810 dre:445089" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:406810+dre:445089">
+        <graphics name="prpf38b..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="289" y="952" width="46" height="17"/>
+    </entry>
+    <entry id="284" name="dre:445383" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:445383">
+        <graphics name="bud31" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="411" y="1001" width="46" height="17"/>
+    </entry>
+    <entry id="285" name="dre:137488732 dre:137488733 dre:137489057 dre:137489422 dre:137489423 dre:137489425 dre:137489426 dre:137489427 dre:137489428 dre:137489429 dre:137489430 dre:137489431 dre:137489432 dre:137489652 dre:137489775 dre:137494206 dre:137494207 dre:137494209 dre:137494211 dre:137494212 dre:137494213 dre:137494215 dre:137494216 dre:137494217 dre:137494218 dre:137494219 dre:137494220 dre:137494222 dre:137494223 dre:137494224 dre:137494225 dre:137494226 dre:137494227 dre:137494228 dre:137494250 dre:137494251 dre:137494252 dre:137494253 dre:137494255 dre:137494256 dre:137494258 dre:137494259 dre:137494260 dre:137494261 dre:137494262 dre:137494268 dre:137494269 dre:137494284 dre:137494285 dre:137494287 dre:137494289 dre:137494290 dre:137494291 dre:137494292 dre:137494293 dre:137494294 dre:137494295 dre:137494296 dre:137494297 dre:137494323 dre:137494362 dre:137494363 dre:137494364 dre:137494365 dre:137494366 dre:137494368 dre:137494369 dre:137494370 dre:137494371 dre:137494372 dre:137494373 dre:137494374 dre:137494376 dre:137494388 dre:137494390 dre:137494391 dre:137494393 dre:137494394 dre:137494396 dre:137494397 dre:137494403 dre:137494406 dre:137494407 dre:137494409 dre:137494410 dre:137494412 dre:137494414 dre:137494417 dre:137494418 dre:137494419 dre:137494421 dre:137494422 dre:137494426 dre:137494427 dre:137494440 dre:137494441 dre:137494442 dre:137494443 dre:137494445 dre:137494450 dre:137494451 dre:137494452 dre:137494453 dre:137494456 dre:137494457 dre:137494459 dre:137494460 dre:137494461 dre:137494462 dre:137494463 dre:137494464 dre:137494465 dre:137494466 dre:137494467 dre:137494468 dre:137494470 dre:137494471 dre:137494472 dre:137494473 dre:137494474 dre:137494475 dre:137494476 dre:137494477 dre:137494478 dre:137494479 dre:137494481 dre:137494482 dre:137494483 dre:137494484 dre:137494486 dre:137494487 dre:137494488 dre:137494492 dre:137494501 dre:137494503 dre:137496260 dre:137496261 dre:137496262 dre:137496263 dre:137496396 dre:137496397 dre:137496518 dre:137496519 dre:137496520 dre:137496627 dre:141384015 dre:141384016 dre:141384021 dre:141384023 dre:141384024 dre:141384025 dre:141384028 dre:141384030 dre:141384031 dre:141384032 dre:141384034 dre:141384035 dre:141384036 dre:141384038 dre:141384039 dre:141384040 dre:141384041 dre:141384042 dre:141384044 dre:141384045 dre:141384046 dre:141384047 dre:141384048 dre:141384049 dre:141384050 dre:141384051 dre:141384052 dre:141384054 dre:141384055 dre:141384056 dre:141384057 dre:141384058 dre:141384059 dre:141384060 dre:141384061 dre:141384062 dre:141384064 dre:141384065 dre:141384067 dre:141384068 dre:141384069 dre:141384070 dre:141384071 dre:141384072 dre:141384073 dre:141384074 dre:141384075 dre:141384077 dre:141384078 dre:141384079 dre:141384080 dre:141384081 dre:141384082 dre:141384083 dre:141384084 dre:141384085 dre:141384086 dre:141384087 dre:141384088 dre:141384089 dre:141384090 dre:141384091 dre:141384092 dre:141384093 dre:141384094 dre:141384095 dre:141384096 dre:141384097 dre:141384098 dre:141384099 dre:141384100 dre:141384101 dre:141384102 dre:141384103 dre:141384104 dre:141384105 dre:141384106 dre:141384107 dre:141384108 dre:141384109 dre:141384110 dre:141384111 dre:141384112 dre:141384113 dre:141384114 dre:141384115 dre:141384116 dre:141384117 dre:141384118 dre:141384119 dre:141384120 dre:141384121 dre:141384122 dre:141384123 dre:141384124 dre:141384125 dre:141384126 dre:141384127 dre:141384128 dre:141384129 dre:141384130 dre:141384131 dre:141384132 dre:141384133 dre:141384134 dre:141384135 dre:141384136 dre:141384137 dre:141384138 dre:141384139 dre:141384140 dre:141384141 dre:141384142 dre:141384143 dre:141384144 dre:141384145 dre:141384146 dre:141384147 dre:141384148 dre:141384150 dre:141384151 dre:141384152 dre:141384153 dre:141384154 dre:141384155 dre:141384156 dre:141384157 dre:141384158 dre:141384160 dre:141384161 dre:141384162 dre:141384163 dre:141384164 dre:141384166 dre:141384168" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:137488732+dre:137488733+dre:137489057+dre:137489422+dre:137489423+dre:137489425+dre:137489426+dre:137489427+dre:137489428+dre:137489429+dre:137489430+dre:137489431+dre:137489432+dre:137489652+dre:137489775+dre:137494206+dre:137494207+dre:137494209+dre:137494211+dre:137494212+dre:137494213+dre:137494215+dre:137494216+dre:137494217+dre:137494218+dre:137494219+dre:137494220+dre:137494222+dre:137494223+dre:137494224+dre:137494225+dre:137494226+dre:137494227+dre:137494228+dre:137494250+dre:137494251+dre:137494252+dre:137494253+dre:137494255+dre:137494256+dre:137494258+dre:137494259+dre:137494260+dre:137494261+dre:137494262+dre:137494268+dre:137494269+dre:137494284+dre:137494285+dre:137494287+dre:137494289+dre:137494290+dre:137494291+dre:137494292+dre:137494293+dre:137494294+dre:137494295+dre:137494296+dre:137494297+dre:137494323+dre:137494362+dre:137494363+dre:137494364+dre:137494365+dre:137494366+dre:137494368+dre:137494369+dre:137494370+dre:137494371+dre:137494372+dre:137494373+dre:137494374+dre:137494376+dre:137494388+dre:137494390+dre:137494391+dre:137494393+dre:137494394+dre:137494396+dre:137494397+dre:137494403+dre:137494406+dre:137494407+dre:137494409+dre:137494410+dre:137494412+dre:137494414+dre:137494417+dre:137494418+dre:137494419+dre:137494421+dre:137494422+dre:137494426+dre:137494427+dre:137494440+dre:137494441+dre:137494442+dre:137494443+dre:137494445+dre:137494450+dre:137494451+dre:137494452+dre:137494453+dre:137494456+dre:137494457+dre:137494459+dre:137494460+dre:137494461+dre:137494462+dre:137494463+dre:137494464+dre:137494465+dre:137494466+dre:137494467+dre:137494468+dre:137494470+dre:137494471+dre:137494472+dre:137494473+dre:137494474+dre:137494475+dre:137494476+dre:137494477+dre:137494478+dre:137494479+dre:137494481+dre:137494482+dre:137494483+dre:137494484+dre:137494486+dre:137494487+dre:137494488+dre:137494492+dre:137494501+dre:137494503+dre:137496260+dre:137496261+dre:137496262+dre:137496263+dre:137496396+dre:137496397+dre:137496518+dre:137496519+dre:137496520+dre:137496627+dre:141384015+dre:141384016+dre:141384021+dre:141384023+dre:141384024+dre:141384025+dre:141384028+dre:141384030+dre:141384031+dre:141384032+dre:141384034+dre:141384035+dre:141384036+dre:141384038+dre:141384039+dre:141384040+dre:141384041+dre:141384042+dre:141384044+dre:141384045+dre:141384046+dre:141384047+dre:141384048+dre:141384049+dre:141384050+dre:141384051+dre:141384052+dre:141384054+dre:141384055+dre:141384056+dre:141384057+dre:141384058+dre:141384059+dre:141384060+dre:141384061+dre:141384062+dre:141384064+dre:141384065+dre:141384067+dre:141384068+dre:141384069+dre:141384070+dre:141384071+dre:141384072+dre:141384073+dre:141384074+dre:141384075+dre:141384077+dre:141384078+dre:141384079+dre:141384080+dre:141384081+dre:141384082+dre:141384083+dre:141384084+dre:141384085+dre:141384086+dre:141384087+dre:141384088+dre:141384089+dre:141384090+dre:141384091+dre:141384092+dre:141384093+dre:141384094+dre:141384095+dre:141384096+dre:141384097+dre:141384098+dre:141384099+dre:141384100+dre:141384101+dre:141384102+dre:141384103+dre:141384104+dre:141384105+dre:141384106+dre:141384107+dre:141384108+dre:141384109+dre:141384110+dre:141384111+dre:141384112+dre:141384113+dre:141384114+dre:141384115+dre:141384116+dre:141384117+dre:141384118+dre:141384119+dre:141384120+dre:141384121+dre:141384122+dre:141384123+dre:141384124+dre:141384125+dre:141384126+dre:141384127+dre:141384128+dre:141384129+dre:141384130+dre:141384131+dre:141384132+dre:141384133+dre:141384134+dre:141384135+dre:141384136+dre:141384137+dre:141384138+dre:141384139+dre:141384140+dre:141384141+dre:141384142+dre:141384143+dre:141384144+dre:141384145+dre:141384146+dre:141384147+dre:141384148+dre:141384150+dre:141384151+dre:141384152+dre:141384153+dre:141384154+dre:141384155+dre:141384156+dre:141384157+dre:141384158+dre:141384160+dre:141384161+dre:141384162+dre:141384163+dre:141384164+dre:141384166+dre:141384168">
+        <graphics name="137488732..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="681" width="46" height="17"/>
+    </entry>
+    <entry id="286" name="dre:137487460 dre:137488374 dre:137488397 dre:137488398 dre:137488399 dre:137488400 dre:137488401 dre:137488403 dre:137488404 dre:137496035 dre:137496264 dre:137496265 dre:141379275 dre:141379278 dre:141379281 dre:141379288 dre:141379289 dre:141379292 dre:141379294 dre:141379296 dre:141379299 dre:141379300 dre:141379305 dre:141379306 dre:141379307 dre:141379308 dre:141379309 dre:141379310 dre:141379312 dre:141379317 dre:141379318 dre:141379321 dre:141379324 dre:141379326 dre:141379329 dre:141379332 dre:141379336 dre:141379338 dre:141379340 dre:141379341 dre:141379344 dre:141379347 dre:141379350 dre:141379351 dre:141379354 dre:141379358 dre:141379359 dre:141379360 dre:141379361 dre:141379362 dre:141379363 dre:141379364 dre:141379366 dre:141379367 dre:141379368 dre:141379371 dre:141379374 dre:141379376 dre:141379377 dre:141379380 dre:141379384 dre:141379385 dre:141379387 dre:141379391 dre:141379392 dre:141379393 dre:141379394 dre:141379395 dre:141379396 dre:141379403 dre:141379404 dre:141379405 dre:141379406 dre:141379409 dre:141379410 dre:141379411 dre:141379414 dre:141379420 dre:141379421 dre:141379427 dre:141379428" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:137487460+dre:137488374+dre:137488397+dre:137488398+dre:137488399+dre:137488400+dre:137488401+dre:137488403+dre:137488404+dre:137496035+dre:137496264+dre:137496265+dre:141379275+dre:141379278+dre:141379281+dre:141379288+dre:141379289+dre:141379292+dre:141379294+dre:141379296+dre:141379299+dre:141379300+dre:141379305+dre:141379306+dre:141379307+dre:141379308+dre:141379309+dre:141379310+dre:141379312+dre:141379317+dre:141379318+dre:141379321+dre:141379324+dre:141379326+dre:141379329+dre:141379332+dre:141379336+dre:141379338+dre:141379340+dre:141379341+dre:141379344+dre:141379347+dre:141379350+dre:141379351+dre:141379354+dre:141379358+dre:141379359+dre:141379360+dre:141379361+dre:141379362+dre:141379363+dre:141379364+dre:141379366+dre:141379367+dre:141379368+dre:141379371+dre:141379374+dre:141379376+dre:141379377+dre:141379380+dre:141379384+dre:141379385+dre:141379387+dre:141379391+dre:141379392+dre:141379393+dre:141379394+dre:141379395+dre:141379396+dre:141379403+dre:141379404+dre:141379405+dre:141379406+dre:141379409+dre:141379410+dre:141379411+dre:141379414+dre:141379420+dre:141379421+dre:141379427+dre:141379428">
+        <graphics name="137487460..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="681" width="46" height="17"/>
+    </entry>
+    <entry id="287" name="dre:137488747 dre:137488748 dre:137488749 dre:137488750 dre:137488751 dre:137488752 dre:137495669 dre:137495769 dre:137495770 dre:137495771 dre:137495772 dre:137495773 dre:137495774 dre:137495775 dre:137495776 dre:137495777 dre:137495778 dre:137495779 dre:137495780 dre:137495781 dre:137495782 dre:137495783 dre:137495784 dre:137495785 dre:137495786 dre:137495787 dre:137495788 dre:137495789 dre:137495790 dre:137495791 dre:137495792 dre:137495797 dre:137495799 dre:137495800 dre:137496521 dre:141385871 dre:141385872 dre:141385873 dre:141385874 dre:141385875 dre:141385876 dre:141385877 dre:141385878 dre:141385879 dre:141385880 dre:141385881 dre:141385882 dre:141385883 dre:141385884 dre:141385885 dre:141385886 dre:141385887 dre:141385888 dre:141385889 dre:141385890 dre:141385891 dre:141385892 dre:141385893 dre:141385894 dre:141385895 dre:141385896 dre:141385897 dre:141385898 dre:141385899 dre:141385900 dre:141385901 dre:141385902 dre:141385903 dre:141385904 dre:141385905 dre:141385906 dre:141385907 dre:141385908 dre:141385909 dre:141385910 dre:141385911 dre:141385912 dre:141385913 dre:141385914 dre:141385915 dre:141385916 dre:141385917 dre:141385918 dre:141385919 dre:141385920 dre:141385921 dre:141385922 dre:141385923 dre:141385924 dre:141385925 dre:141385926 dre:141385927 dre:141385928 dre:141385929 dre:141385930 dre:141385931 dre:141385932 dre:141385933 dre:141385934 dre:141385935 dre:141385936 dre:141385937 dre:141385938 dre:141385939 dre:141385940 dre:141385941 dre:141385942 dre:141385943 dre:141385944 dre:141385945 dre:141385946 dre:141385947 dre:141385948 dre:141385949 dre:141385950 dre:141385951 dre:141385952 dre:141385953 dre:141385954 dre:141385955 dre:141385956 dre:141385957 dre:141385958 dre:141385960 dre:141385961 dre:141385962 dre:141385963 dre:141385964 dre:141385965 dre:141385966 dre:141385967 dre:141385968 dre:141385969 dre:141385970 dre:141385971 dre:141385972 dre:141385973 dre:141385974 dre:141385976 dre:141385977 dre:141385978 dre:141385979 dre:141385980 dre:141385981 dre:141385982 dre:141385983 dre:141385984 dre:141385985 dre:141385986 dre:141385987 dre:141385988 dre:141385989 dre:141385990 dre:141385991 dre:141385992 dre:141385993" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:137488747+dre:137488748+dre:137488749+dre:137488750+dre:137488751+dre:137488752+dre:137495669+dre:137495769+dre:137495770+dre:137495771+dre:137495772+dre:137495773+dre:137495774+dre:137495775+dre:137495776+dre:137495777+dre:137495778+dre:137495779+dre:137495780+dre:137495781+dre:137495782+dre:137495783+dre:137495784+dre:137495785+dre:137495786+dre:137495787+dre:137495788+dre:137495789+dre:137495790+dre:137495791+dre:137495792+dre:137495797+dre:137495799+dre:137495800+dre:137496521+dre:141385871+dre:141385872+dre:141385873+dre:141385874+dre:141385875+dre:141385876+dre:141385877+dre:141385878+dre:141385879+dre:141385880+dre:141385881+dre:141385882+dre:141385883+dre:141385884+dre:141385885+dre:141385886+dre:141385887+dre:141385888+dre:141385889+dre:141385890+dre:141385891+dre:141385892+dre:141385893+dre:141385894+dre:141385895+dre:141385896+dre:141385897+dre:141385898+dre:141385899+dre:141385900+dre:141385901+dre:141385902+dre:141385903+dre:141385904+dre:141385905+dre:141385906+dre:141385907+dre:141385908+dre:141385909+dre:141385910+dre:141385911+dre:141385912+dre:141385913+dre:141385914+dre:141385915+dre:141385916+dre:141385917+dre:141385918+dre:141385919+dre:141385920+dre:141385921+dre:141385922+dre:141385923+dre:141385924+dre:141385925+dre:141385926+dre:141385927+dre:141385928+dre:141385929+dre:141385930+dre:141385931+dre:141385932+dre:141385933+dre:141385934+dre:141385935+dre:141385936+dre:141385937+dre:141385938+dre:141385939+dre:141385940+dre:141385941+dre:141385942+dre:141385943+dre:141385944+dre:141385945+dre:141385946+dre:141385947+dre:141385948+dre:141385949+dre:141385950+dre:141385951+dre:141385952+dre:141385953+dre:141385954+dre:141385955+dre:141385956+dre:141385957+dre:141385958+dre:141385960+dre:141385961+dre:141385962+dre:141385963+dre:141385964+dre:141385965+dre:141385966+dre:141385967+dre:141385968+dre:141385969+dre:141385970+dre:141385971+dre:141385972+dre:141385973+dre:141385974+dre:141385976+dre:141385977+dre:141385978+dre:141385979+dre:141385980+dre:141385981+dre:141385982+dre:141385983+dre:141385984+dre:141385985+dre:141385986+dre:141385987+dre:141385988+dre:141385989+dre:141385990+dre:141385991+dre:141385992+dre:141385993">
+        <graphics name="137488747..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="324" y="681" width="46" height="17"/>
+    </entry>
+    <entry id="288" name="dre:137488171 dre:137488173 dre:137488174 dre:137488175 dre:137488176 dre:137488177 dre:137488179 dre:137488181 dre:137488182 dre:137488183 dre:137488184 dre:137488186 dre:137488187 dre:137488188 dre:137488189 dre:137488191 dre:137488192 dre:137488193 dre:137488195 dre:137489189 dre:137489404 dre:137490532 dre:137490533 dre:137490534 dre:137490536 dre:137494510 dre:137494511 dre:141374968 dre:141374977 dre:141374982 dre:141374983 dre:141376709 dre:141378620 dre:141378621" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:137488171+dre:137488173+dre:137488174+dre:137488175+dre:137488176+dre:137488177+dre:137488179+dre:137488181+dre:137488182+dre:137488183+dre:137488184+dre:137488186+dre:137488187+dre:137488188+dre:137488189+dre:137488191+dre:137488192+dre:137488193+dre:137488195+dre:137489189+dre:137489404+dre:137490532+dre:137490533+dre:137490534+dre:137490536+dre:137494510+dre:137494511+dre:141374968+dre:141374977+dre:141374982+dre:141374983+dre:141376709+dre:141378620+dre:141378621">
+        <graphics name="137488171..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="682" width="46" height="17"/>
+    </entry>
+    <entry id="289" name="dre:137488008 dre:137488375 dre:137488754 dre:137488874 dre:137489623 dre:137489625 dre:137489633 dre:137489634 dre:137489636 dre:137489637 dre:137489639 dre:137489640 dre:137489641 dre:137489642 dre:137489644 dre:137489645 dre:137489646 dre:137489653 dre:137489674 dre:137489675 dre:137489678 dre:137489679 dre:137489792 dre:137489852 dre:137489853 dre:137489857 dre:137489858 dre:137489859 dre:137489860 dre:137489971 dre:137490351 dre:137490791 dre:137490792 dre:137490793 dre:137490794 dre:137490795 dre:137490796 dre:137490797 dre:137490798 dre:137490799 dre:137490800 dre:137490801 dre:137490802 dre:137494512 dre:137494513 dre:137494515 dre:137494516 dre:137494517 dre:137494518 dre:137494519 dre:137494520 dre:137494521 dre:137494522 dre:137494523 dre:137494524 dre:137494526 dre:137494527 dre:137494528 dre:137494529 dre:137494530 dre:137494531 dre:137494532 dre:137494534 dre:137494535 dre:137494537 dre:137494538 dre:137494539 dre:137494542 dre:137494543 dre:137494544 dre:137494545 dre:137494546 dre:137494548 dre:137494549 dre:137494550 dre:137494551 dre:137494552 dre:137494553 dre:137494554 dre:137494555 dre:137494556 dre:137494557 dre:137494560 dre:137494561 dre:137494562 dre:137494563 dre:137494564 dre:137494565 dre:137494566 dre:137494567 dre:137494568 dre:137494570 dre:137494571 dre:137494572 dre:137494573 dre:137494574 dre:137494575 dre:137494576 dre:137494577 dre:137494578 dre:137494579 dre:137494581 dre:137494582 dre:137494583 dre:137494584 dre:137494585 dre:137494586 dre:137494587 dre:137494588 dre:137494589 dre:137494590 dre:137494592 dre:137494593 dre:137494594 dre:137494595 dre:137494596 dre:137494597 dre:137494598 dre:137494599 dre:137494600 dre:137494601 dre:137494603 dre:137494604 dre:137494605 dre:137494606 dre:137494607 dre:137494608 dre:137494609 dre:137494610 dre:137494611 dre:137494612 dre:137494614 dre:137494615 dre:137494616 dre:137494617 dre:137494618 dre:137494620 dre:137494621 dre:137494622 dre:137494623 dre:137494624 dre:137494626 dre:137494627 dre:137494628 dre:137494629 dre:137494630 dre:137494631 dre:137494632 dre:137494633 dre:137494634 dre:137494635 dre:137494637 dre:137494638 dre:137494639 dre:137494640 dre:137494642 dre:137494645 dre:137494646 dre:137494648 dre:137494649 dre:137494650 dre:137494651 dre:137494652 dre:137494653 dre:137494654 dre:137494655 dre:137494656 dre:137494657 dre:137494659 dre:137494660 dre:137494661 dre:137494662 dre:137494663 dre:137494664 dre:137494665 dre:137494666 dre:137494667 dre:137494668 dre:137494670 dre:137494671 dre:137494672 dre:137494673 dre:137494674 dre:137494676 dre:137494677 dre:137494678 dre:137494679 dre:137494680 dre:137494682 dre:137494683 dre:137494684 dre:137494685 dre:137494686 dre:137494687 dre:137494688 dre:137494689 dre:137494690 dre:137494691 dre:137494693 dre:137494695 dre:137494696 dre:137494697 dre:137494698 dre:137494699 dre:137494700 dre:137494701 dre:137494702 dre:137494704 dre:137494705 dre:137494706 dre:137494707 dre:137494708 dre:137494709 dre:137494710 dre:137494711 dre:137494712 dre:137494713 dre:137494715 dre:137494716 dre:137494717 dre:137494718 dre:137494719 dre:137494720 dre:137494721 dre:137494722 dre:137494723 dre:137494724 dre:137494726 dre:137494727 dre:137494728 dre:137494729 dre:137494730 dre:137494732 dre:137494733 dre:137494735 dre:137494736 dre:137494738 dre:137494739 dre:137494740 dre:137494741 dre:137494742 dre:137494749 dre:137494750 dre:137494751 dre:137494752 dre:137494754 dre:137494755 dre:137494756 dre:137494757 dre:137494758 dre:137494760 dre:137494761 dre:137494762 dre:137494763 dre:137494764 dre:137494765 dre:137494766 dre:137494767 dre:137494768 dre:137494769 dre:137494771 dre:137494774 dre:137494776 dre:137494777 dre:137494779 dre:137494780 dre:137494782 dre:137494783 dre:137494784 dre:137494785 dre:137494786 dre:137494787 dre:137494788 dre:137494789 dre:137494790 dre:137494791 dre:137494793 dre:137494794 dre:137494795 dre:137494796 dre:137494797 dre:137494798 dre:137494799 dre:137494800 dre:137494801 dre:137494802 dre:137494804 dre:137494806 dre:137494807 dre:137494808 dre:137494809 dre:137494810 dre:137494811 dre:137494812 dre:137494813 dre:137494814 dre:137494816 dre:137494817 dre:137494818 dre:137494819 dre:137494820 dre:137494822 dre:137494823 dre:137494824 dre:137494825 dre:137494829 dre:137494831 dre:137494832 dre:137494833 dre:137494834 dre:137494835 dre:137494836 dre:137494838 dre:137494840 dre:137494841 dre:137494842 dre:137494843 dre:137494844 dre:137494846 dre:137494847 dre:137494848 dre:137494849 dre:137494850 dre:137494852 dre:137494853 dre:137494854 dre:137494856 dre:137494857 dre:137494858 dre:137494859 dre:137494860 dre:137494864 dre:137494866 dre:137494867 dre:137494868 dre:137494869 dre:137494870 dre:137494871 dre:137494872 dre:137494874 dre:137494875 dre:137494876 dre:137494877 dre:137494878 dre:137494879 dre:137494880 dre:137494881 dre:137494882 dre:137494883 dre:137494885 dre:137494886 dre:137494887 dre:137494888 dre:137494889 dre:137494890 dre:137494891 dre:137494892 dre:137494893 dre:137494894 dre:137494896 dre:137494897 dre:137494898 dre:137494899 dre:137494900 dre:137494901 dre:137494902 dre:137494903 dre:137494905 dre:137494907 dre:137494908 dre:137494909 dre:137494910 dre:137494911 dre:137494914 dre:137494915 dre:137494916 dre:137494917 dre:137494919 dre:137494920 dre:137494921 dre:137494922 dre:137494924 dre:137494925 dre:137494926 dre:137494927 dre:137494928 dre:137494930 dre:137494931 dre:137494932 dre:137494934 dre:137494935 dre:137494936 dre:137494937 dre:137494938 dre:137494939 dre:137494941 dre:137494942 dre:137494943 dre:137494944 dre:137494945 dre:137494947 dre:137494948 dre:137494949 dre:137494950 dre:137494952 dre:137494953 dre:137494954 dre:137494955 dre:137494956 dre:137494958 dre:137494959 dre:137494960 dre:137494961 dre:137494962 dre:137494964 dre:137494965 dre:137494968 dre:137494969 dre:137494970 dre:137494971 dre:137494972 dre:137494973 dre:137494975 dre:137494976 dre:137494978 dre:137494979 dre:137494980 dre:137494981 dre:137494982 dre:137494983 dre:137494984 dre:137494986 dre:137494988 dre:137494990 dre:137494991 dre:137494992 dre:137494993 dre:137494994 dre:137494995 dre:137494997 dre:137494998 dre:137494999 dre:137495000 dre:137495001 dre:137495002 dre:137495003 dre:137495004 dre:137495005 dre:137495006 dre:137495008 dre:137495009 dre:137495010 dre:137495011 dre:137495012 dre:137495013 dre:137495014 dre:137495015 dre:137495016 dre:137495017 dre:137495019 dre:137495020 dre:137495021 dre:137495022 dre:137495023 dre:137495024 dre:137495025 dre:137495026 dre:137495027 dre:137495028 dre:137495031 dre:137495032 dre:137495034 dre:137495036 dre:137495037 dre:137495038 dre:137495039 dre:137495040 dre:137495042 dre:137495043 dre:137495044 dre:137495046 dre:137495047 dre:137495048 dre:137495049 dre:137495050 dre:137495051 dre:137495053 dre:137495054 dre:137495055 dre:137495056 dre:137495057 dre:137495058 dre:137495059 dre:137495060 dre:137495061 dre:137495062 dre:137495064 dre:137495065 dre:137495066 dre:137495067 dre:137495068 dre:137495071 dre:137495072 dre:137495073 dre:137495074 dre:137495076 dre:137495077 dre:137495079 dre:137495080 dre:137495081 dre:137495082 dre:137495083 dre:137495084 dre:137495085 dre:137495088 dre:137495090 dre:137495091 dre:137495093 dre:137495097 dre:137495099 dre:137495100 dre:137496059 dre:137496753 dre:137496754 dre:141382000 dre:141382001 dre:141382002 dre:141382003 dre:141382005 dre:141382006 dre:141382007 dre:141382008 dre:141382009 dre:141382010 dre:141382011 dre:141382012 dre:141382013 dre:141382014 dre:141382015 dre:141382016 dre:141382017 dre:141382018 dre:141382019 dre:141382020 dre:141382021 dre:141382022 dre:141382023 dre:141382024 dre:141382025 dre:141382026 dre:141382027 dre:141382028 dre:141382029 dre:141382030 dre:141382031 dre:141382032 dre:141382033 dre:141382034 dre:141382035 dre:141382036 dre:141382037 dre:141382038 dre:141382039 dre:141382040 dre:141382041 dre:141382042 dre:141382043 dre:141382044 dre:141382045 dre:141382047 dre:141382048 dre:141382049 dre:141382050 dre:141382051 dre:141382052 dre:141382053 dre:141382054 dre:141382055 dre:141382056 dre:141382057 dre:141382058 dre:141382059 dre:141382060 dre:141382061 dre:141382062 dre:141382063 dre:141382064 dre:141382065 dre:141382066 dre:141382067 dre:141382068 dre:141382069 dre:141382071 dre:141382072 dre:141382073 dre:141382074 dre:141382075 dre:141382076 dre:141382077 dre:141382078 dre:141382079 dre:141382080 dre:141382081 dre:141382082 dre:141382084 dre:141384174 dre:141384175 dre:141384176 dre:141384177 dre:141384178 dre:141384180 dre:141384181 dre:141384184 dre:141384186 dre:141384187 dre:141384190 dre:141384191 dre:141384192 dre:141384193 dre:141384194 dre:141384195 dre:141384196 dre:141384198 dre:141384199 dre:141384200 dre:141384201 dre:141384202 dre:141384203 dre:141384204 dre:141384205 dre:141384206 dre:141384209 dre:141384210 dre:141384212 dre:141384213 dre:141384214 dre:141384215 dre:141384216 dre:141384217 dre:141384218 dre:141384221 dre:141384225 dre:141384227 dre:141384228 dre:141384229 dre:141384230 dre:141384231 dre:141384233 dre:141384234 dre:141384235 dre:141384237 dre:141384239 dre:141384240 dre:141384241 dre:141384242 dre:141384243 dre:141384244 dre:141384245 dre:141384247 dre:141384248 dre:141384249 dre:141384250 dre:141384251 dre:141384252 dre:141384253 dre:141384254 dre:141384255 dre:141384256 dre:141384258 dre:141384259 dre:141384260 dre:141384261 dre:141384262 dre:141384263 dre:141384264 dre:141384266 dre:141384267 dre:141384268 dre:141384269 dre:141384271 dre:141384272 dre:141384276 dre:141384277 dre:141384278 dre:141384279 dre:141384280 dre:141384281 dre:141384282 dre:141384283 dre:141384285 dre:141384286 dre:141384287 dre:141384288 dre:141384289 dre:141384290 dre:141384291 dre:141384292 dre:141384293 dre:141384294 dre:141384295 dre:141384296 dre:141384297 dre:141384298 dre:141384299 dre:141384300 dre:141384301 dre:141384302 dre:141384303 dre:141384304 dre:141384305 dre:141384306 dre:141384307 dre:141384308" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:137488008+dre:137488375+dre:137488754+dre:137488874+dre:137489623+dre:137489625+dre:137489633+dre:137489634+dre:137489636+dre:137489637+dre:137489639+dre:137489640+dre:137489641+dre:137489642+dre:137489644+dre:137489645+dre:137489646+dre:137489653+dre:137489674+dre:137489675+dre:137489678+dre:137489679+dre:137489792+dre:137489852+dre:137489853+dre:137489857+dre:137489858+dre:137489859+dre:137489860+dre:137489971+dre:137490351+dre:137490791+dre:137490792+dre:137490793+dre:137490794+dre:137490795+dre:137490796+dre:137490797+dre:137490798+dre:137490799+dre:137490800+dre:137490801+dre:137490802+dre:137494512+dre:137494513+dre:137494515+dre:137494516+dre:137494517+dre:137494518+dre:137494519+dre:137494520+dre:137494521+dre:137494522+dre:137494523+dre:137494524+dre:137494526+dre:137494527+dre:137494528+dre:137494529+dre:137494530+dre:137494531+dre:137494532+dre:137494534+dre:137494535+dre:137494537+dre:137494538+dre:137494539+dre:137494542+dre:137494543+dre:137494544+dre:137494545+dre:137494546+dre:137494548+dre:137494549+dre:137494550+dre:137494551+dre:137494552+dre:137494553+dre:137494554+dre:137494555+dre:137494556+dre:137494557+dre:137494560+dre:137494561+dre:137494562+dre:137494563+dre:137494564+dre:137494565+dre:137494566+dre:137494567+dre:137494568+dre:137494570+dre:137494571+dre:137494572+dre:137494573+dre:137494574+dre:137494575+dre:137494576+dre:137494577+dre:137494578+dre:137494579+dre:137494581+dre:137494582+dre:137494583+dre:137494584+dre:137494585+dre:137494586+dre:137494587+dre:137494588+dre:137494589+dre:137494590+dre:137494592+dre:137494593+dre:137494594+dre:137494595+dre:137494596+dre:137494597+dre:137494598+dre:137494599+dre:137494600+dre:137494601+dre:137494603+dre:137494604+dre:137494605+dre:137494606+dre:137494607+dre:137494608+dre:137494609+dre:137494610+dre:137494611+dre:137494612+dre:137494614+dre:137494615+dre:137494616+dre:137494617+dre:137494618+dre:137494620+dre:137494621+dre:137494622+dre:137494623+dre:137494624+dre:137494626+dre:137494627+dre:137494628+dre:137494629+dre:137494630+dre:137494631+dre:137494632+dre:137494633+dre:137494634+dre:137494635+dre:137494637+dre:137494638+dre:137494639+dre:137494640+dre:137494642+dre:137494645+dre:137494646+dre:137494648+dre:137494649+dre:137494650+dre:137494651+dre:137494652+dre:137494653+dre:137494654+dre:137494655+dre:137494656+dre:137494657+dre:137494659+dre:137494660+dre:137494661+dre:137494662+dre:137494663+dre:137494664+dre:137494665+dre:137494666+dre:137494667+dre:137494668+dre:137494670+dre:137494671+dre:137494672+dre:137494673+dre:137494674+dre:137494676+dre:137494677+dre:137494678+dre:137494679+dre:137494680+dre:137494682+dre:137494683+dre:137494684+dre:137494685+dre:137494686+dre:137494687+dre:137494688+dre:137494689+dre:137494690+dre:137494691+dre:137494693+dre:137494695+dre:137494696+dre:137494697+dre:137494698+dre:137494699+dre:137494700+dre:137494701+dre:137494702+dre:137494704+dre:137494705+dre:137494706+dre:137494707+dre:137494708+dre:137494709+dre:137494710+dre:137494711+dre:137494712+dre:137494713+dre:137494715+dre:137494716+dre:137494717+dre:137494718+dre:137494719+dre:137494720+dre:137494721+dre:137494722+dre:137494723+dre:137494724+dre:137494726+dre:137494727+dre:137494728+dre:137494729+dre:137494730+dre:137494732+dre:137494733+dre:137494735+dre:137494736+dre:137494738+dre:137494739+dre:137494740+dre:137494741+dre:137494742+dre:137494749+dre:137494750+dre:137494751+dre:137494752+dre:137494754+dre:137494755+dre:137494756+dre:137494757+dre:137494758+dre:137494760+dre:137494761+dre:137494762+dre:137494763+dre:137494764+dre:137494765+dre:137494766+dre:137494767+dre:137494768+dre:137494769+dre:137494771+dre:137494774+dre:137494776+dre:137494777+dre:137494779+dre:137494780+dre:137494782+dre:137494783+dre:137494784+dre:137494785+dre:137494786+dre:137494787+dre:137494788+dre:137494789+dre:137494790+dre:137494791+dre:137494793+dre:137494794+dre:137494795+dre:137494796+dre:137494797+dre:137494798+dre:137494799+dre:137494800+dre:137494801+dre:137494802+dre:137494804+dre:137494806+dre:137494807+dre:137494808+dre:137494809+dre:137494810+dre:137494811+dre:137494812+dre:137494813+dre:137494814+dre:137494816+dre:137494817+dre:137494818+dre:137494819+dre:137494820+dre:137494822+dre:137494823+dre:137494824+dre:137494825+dre:137494829+dre:137494831+dre:137494832+dre:137494833+dre:137494834+dre:137494835+dre:137494836+dre:137494838+dre:137494840+dre:137494841+dre:137494842+dre:137494843+dre:137494844+dre:137494846+dre:137494847+dre:137494848+dre:137494849+dre:137494850+dre:137494852+dre:137494853+dre:137494854+dre:137494856+dre:137494857+dre:137494858+dre:137494859+dre:137494860+dre:137494864+dre:137494866+dre:137494867+dre:137494868+dre:137494869+dre:137494870+dre:137494871+dre:137494872+dre:137494874+dre:137494875+dre:137494876+dre:137494877+dre:137494878+dre:137494879+dre:137494880+dre:137494881+dre:137494882+dre:137494883+dre:137494885+dre:137494886+dre:137494887+dre:137494888+dre:137494889+dre:137494890+dre:137494891+dre:137494892+dre:137494893+dre:137494894+dre:137494896+dre:137494897+dre:137494898+dre:137494899+dre:137494900+dre:137494901+dre:137494902+dre:137494903+dre:137494905+dre:137494907+dre:137494908+dre:137494909+dre:137494910+dre:137494911+dre:137494914+dre:137494915+dre:137494916+dre:137494917+dre:137494919+dre:137494920+dre:137494921+dre:137494922+dre:137494924+dre:137494925+dre:137494926+dre:137494927+dre:137494928+dre:137494930+dre:137494931+dre:137494932+dre:137494934+dre:137494935+dre:137494936+dre:137494937+dre:137494938+dre:137494939+dre:137494941+dre:137494942+dre:137494943+dre:137494944+dre:137494945+dre:137494947+dre:137494948+dre:137494949+dre:137494950+dre:137494952+dre:137494953+dre:137494954+dre:137494955+dre:137494956+dre:137494958+dre:137494959+dre:137494960+dre:137494961+dre:137494962+dre:137494964+dre:137494965+dre:137494968+dre:137494969+dre:137494970+dre:137494971+dre:137494972+dre:137494973+dre:137494975+dre:137494976+dre:137494978+dre:137494979+dre:137494980+dre:137494981+dre:137494982+dre:137494983+dre:137494984+dre:137494986+dre:137494988+dre:137494990+dre:137494991+dre:137494992+dre:137494993+dre:137494994+dre:137494995+dre:137494997+dre:137494998+dre:137494999+dre:137495000+dre:137495001+dre:137495002+dre:137495003+dre:137495004+dre:137495005+dre:137495006+dre:137495008+dre:137495009+dre:137495010+dre:137495011+dre:137495012+dre:137495013+dre:137495014+dre:137495015+dre:137495016+dre:137495017+dre:137495019+dre:137495020+dre:137495021+dre:137495022+dre:137495023+dre:137495024+dre:137495025+dre:137495026+dre:137495027+dre:137495028+dre:137495031+dre:137495032+dre:137495034+dre:137495036+dre:137495037+dre:137495038+dre:137495039+dre:137495040+dre:137495042+dre:137495043+dre:137495044+dre:137495046+dre:137495047+dre:137495048+dre:137495049+dre:137495050+dre:137495051+dre:137495053+dre:137495054+dre:137495055+dre:137495056+dre:137495057+dre:137495058+dre:137495059+dre:137495060+dre:137495061+dre:137495062+dre:137495064+dre:137495065+dre:137495066+dre:137495067+dre:137495068+dre:137495071+dre:137495072+dre:137495073+dre:137495074+dre:137495076+dre:137495077+dre:137495079+dre:137495080+dre:137495081+dre:137495082+dre:137495083+dre:137495084+dre:137495085+dre:137495088+dre:137495090+dre:137495091+dre:137495093+dre:137495097+dre:137495099+dre:137495100+dre:137496059+dre:137496753+dre:137496754+dre:141382000+dre:141382001+dre:141382002+dre:141382003+dre:141382005+dre:141382006+dre:141382007+dre:141382008+dre:141382009+dre:141382010+dre:141382011+dre:141382012+dre:141382013+dre:141382014+dre:141382015+dre:141382016+dre:141382017+dre:141382018+dre:141382019+dre:141382020+dre:141382021+dre:141382022+dre:141382023+dre:141382024+dre:141382025+dre:141382026+dre:141382027+dre:141382028+dre:141382029+dre:141382030+dre:141382031+dre:141382032+dre:141382033+dre:141382034+dre:141382035+dre:141382036+dre:141382037+dre:141382038+dre:141382039+dre:141382040+dre:141382041+dre:141382042+dre:141382043+dre:141382044+dre:141382045+dre:141382047+dre:141382048+dre:141382049+dre:141382050+dre:141382051+dre:141382052+dre:141382053+dre:141382054+dre:141382055+dre:141382056+dre:141382057+dre:141382058+dre:141382059+dre:141382060+dre:141382061+dre:141382062+dre:141382063+dre:141382064+dre:141382065+dre:141382066+dre:141382067+dre:141382068+dre:141382069+dre:141382071+dre:141382072+dre:141382073+dre:141382074+dre:141382075+dre:141382076+dre:141382077+dre:141382078+dre:141382079+dre:141382080+dre:141382081+dre:141382082+dre:141382084+dre:141384174+dre:141384175+dre:141384176+dre:141384177+dre:141384178+dre:141384180+dre:141384181+dre:141384184+dre:141384186+dre:141384187+dre:141384190+dre:141384191+dre:141384192+dre:141384193+dre:141384194+dre:141384195+dre:141384196+dre:141384198+dre:141384199+dre:141384200+dre:141384201+dre:141384202+dre:141384203+dre:141384204+dre:141384205+dre:141384206+dre:141384209+dre:141384210+dre:141384212+dre:141384213+dre:141384214+dre:141384215+dre:141384216+dre:141384217+dre:141384218+dre:141384221+dre:141384225+dre:141384227+dre:141384228+dre:141384229+dre:141384230+dre:141384231+dre:141384233+dre:141384234+dre:141384235+dre:141384237+dre:141384239+dre:141384240+dre:141384241+dre:141384242+dre:141384243+dre:141384244+dre:141384245+dre:141384247+dre:141384248+dre:141384249+dre:141384250+dre:141384251+dre:141384252+dre:141384253+dre:141384254+dre:141384255+dre:141384256+dre:141384258+dre:141384259+dre:141384260+dre:141384261+dre:141384262+dre:141384263+dre:141384264+dre:141384266+dre:141384267+dre:141384268+dre:141384269+dre:141384271+dre:141384272+dre:141384276+dre:141384277+dre:141384278+dre:141384279+dre:141384280+dre:141384281+dre:141384282+dre:141384283+dre:141384285+dre:141384286+dre:141384287+dre:141384288+dre:141384289+dre:141384290+dre:141384291+dre:141384292+dre:141384293+dre:141384294+dre:141384295+dre:141384296+dre:141384297+dre:141384298+dre:141384299+dre:141384300+dre:141384301+dre:141384302+dre:141384303+dre:141384304+dre:141384305+dre:141384306+dre:141384307+dre:141384308">
+        <graphics name="137488008..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="256" y="698" width="46" height="17"/>
+    </entry>
+    <entry id="290" name="dre:492481" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:492481">
+        <graphics name="rp9" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="186" y="953" width="46" height="17"/>
+    </entry>
+    <entry id="291" name="dre:492481" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:492481">
+        <graphics name="rp9" fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="289" y="972" width="46" height="17"/>
+    </entry>
+    <entry id="292" name="dre:394058 dre:558760" type="gene"
+        link="https://www.kegg.jp/dbget-bin/www_bget?dre:394058+dre:558760">
+        <graphics name="fus..." fgcolor="#000000" bgcolor="#BFFFBF"
+             type="rectangle" x="121" y="873" width="46" height="17"/>
+    </entry>
+</pathway>
