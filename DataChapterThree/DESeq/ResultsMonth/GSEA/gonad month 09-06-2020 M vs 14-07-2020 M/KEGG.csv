@@ -1,0 +1,2 @@
+"ID","Description","setSize","enrichmentScore","NES","pvalue","p.adjust","qvalue","rank","leading_edge","core_enrichment"
+"dre04082","Neuroactive ligand signaling",10,0.694191867339306,2.68822513597843,4.68652148594218e-05,0.00051551736345364,0.000394654440921447,57,"tags=80%, list=13%, signal=72%","100537531/571679/571633/30676/101886206/571825/565256/568566"

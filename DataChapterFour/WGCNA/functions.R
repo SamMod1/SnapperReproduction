@@ -1,0 +1,356 @@
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load(ggplot2, ggpmisc)
+
+
+binarise_phenotype_data <- function(phenotype_data) {
+  new_df <- data.frame(row.names = rownames(phenotype_data))
+  
+  for (column in colnames(phenotype_data)) {
+    trait <- phenotype_data[,column]
+    if (is.numeric(trait)) {
+      new_df[column] <- trait
+    } else {
+      phenotypes <- unique(trait)
+      
+      for (phenotype in phenotypes) {
+        is_phenotype <- as.integer(trait == phenotype)
+        new_df[phenotype] <- is_phenotype
+      }
+    }
+  }
+  
+  return(new_df)
+}
+
+
+plot_membership_trait_significance <- function(module, trait_name, module_membership, trait_significance) {
+  membership <- subset(module_membership, module_membership$module_colors == module)
+  trait <- trait_significance[rownames(membership),]
+  
+  ggplot(cbind(membership, trait), aes_string(x=paste('ME', module, sep=''), y=trait_name)) + 
+    stat_poly_line() + stat_poly_eq(use_label(c("adj.R2", "p", "n"))) + geom_point()
+}
+
+
+CorLevelPlot <- function(
+    data,
+    x,
+    y,
+    yLabelColors = NULL,
+    titleX = "",
+    cexTitleX = 1.0,
+    rotTitleX = 0,
+    colTitleX = "black",
+    fontTitleX = 2,
+    titleY = "",
+    cexTitleY = 1.0,
+    rotTitleY = 0,
+    colTitleY = "black",
+    fontTitleY = 2,
+    cexLabX = 1.0,
+    rotLabX = 0,
+    colLabX = "black",
+    fontLabX = 2,
+    cexLabY = 1.0,
+    rotLabY = 0,
+    colLabY = "black",
+    fontLabY = 2,
+    posLab = "bottomleft",
+    col = c("blue4", "blue3", "blue2", "blue1", "white",
+            "red1", "red2", "red3", "red4"),
+    posColKey = "right",
+    cexLabColKey = 1.0,
+    cexCorval = 1.0,
+    colCorval = "black",
+    fontCorval = 1,
+    scale = TRUE,
+    main = "",
+    cexMain = 2,
+    rotMain = 0,
+    colMain = "black",
+    fontMain = 2,
+    corFUN = "pearson",
+    corUSE = "pairwise.complete.obs",
+    signifSymbols = c("***", "**", "*", ""),
+    signifCutpoints = c(0, 0.001, 0.01, 0.05, 1),
+    colFrame = "white",
+    plotRsquared = FALSE)
+{
+  y_names <- y
+  if(!requireNamespace("lattice")) {
+    stop("Please install lattice first.", call.=FALSE)
+  }
+  
+  for (i in 1:length(x)) {
+    if(!is.numeric(data[,x[i]])) {
+      print(paste("Warning: ", x[i],
+                  " is not numeric - please check the source data as everything will be converted to a matrix",
+                  sep=""))
+    }
+  }
+  
+  for (i in 1:length(y)) {
+    if(!is.numeric(data[,y[i]])) {
+      print(paste("Warning: ", y[i],
+                  " is not numeric - please check the source data as everything will be converted to a matrix",
+                  sep=""))
+    }
+  }
+  
+  #Convert the data for x and y to data matrix
+  #	NAs are left NA
+  #	Character (A-Z a-z) are converted to NA
+  #	Character numbers are converted to integers
+  #	Factors are converted to numbers based on level ordering
+  xvals <- data.matrix(data[,which(colnames(data) %in% x)])
+  yvals <- data.matrix(data[,which(colnames(data) %in% y)])
+  corvals <- stats::cor(xvals, yvals, use = corUSE, method = corFUN)
+  
+  #Create a new df with same dimensions as corvals and fill with P values
+  pvals <- corvals
+  for (i in 1:ncol(xvals)) {
+    for (j in 1:ncol(yvals)) {
+      pvals[i,j] <- stats::cor.test(xvals[,i],
+                                    yvals[,j],
+                                    use = corUSE,
+                                    method = corFUN)$p.value
+      colnames(pvals)[j] <- colnames(yvals)[j]
+    }
+    
+    rownames(pvals)[i] <- colnames(xvals)[i]
+  }
+  
+  #Are we plotting R^2 values?
+  if (plotRsquared==TRUE) {
+    corvals <- corvals ^ 2
+  }
+  
+  #Determine max and min correlation values in order to define the range
+  if (scale == FALSE && plotRsquared == TRUE) {
+    iUpperRange <- 1
+    iLowerRange <- 0
+  } else if (scale == FALSE && plotRsquared == FALSE) {
+    iUpperRange <- 1
+    iLowerRange <- -1
+  } else if (scale == TRUE) {
+    max <- max(corvals)
+    min <- min(corvals)
+    if(abs(max)>abs(min)) {
+      iUpperRange <- max+0.01
+      iLowerRange <- (max*(-1))-0.01
+    } else {
+      iUpperRange <- abs(min)+0.01
+      iLowerRange <- min-0.01
+    }
+    if (plotRsquared==TRUE) {
+      iUpperRange <- max+0.1
+      iLowerRange <- 0
+    }
+  }
+  
+  #Define the colour scheme/palette
+  cols <- grDevices::colorRampPalette(col)
+  
+  #Create a new df with same dimensions as corvals
+  #Fill with significances encoded with asterisks
+  signif <- corvals
+  for (i in 1:ncol(pvals)) {
+    signif[,i] <- c(stats::symnum(pvals[,i],
+                                  corr = FALSE,
+                                  na = FALSE,
+                                  cutpoints = signifCutpoints,
+                                  symbols = signifSymbols))
+  }
+  
+  #Create a new df with same dimensions as corvals
+  #Fill with r values merged with the encoded significances
+  plotLabels <- corvals
+  for (i in 1:nrow(corvals)) {
+    for(j in 1:ncol(corvals)) {
+      plotLabels[i,j] <- paste(round(corvals[i,j],2),
+                               signif[i,j],
+                               sep="")
+      colnames(plotLabels)[j] <- colnames(corvals)[j]
+    }
+    
+    rownames(plotLabels)[i] <- rownames(corvals)[i]
+  }
+  
+  if (posLab == "bottomleft") {
+    posLab = 1
+    axisTicks = c(1,0)
+  } else if (posLab == "topright") {
+    posLab = 2
+    axisTicks = c(0,1)
+  } else if (posLab == "all") {
+    posLab = 3
+    axisTicks = c(1,1)
+  } else if (posLab == "none") {
+    posLab = 0
+    axisTicks = c(0,0)
+  }
+  
+  #Define a panel function for adding labels
+  #Labels are passed with z as a third dimension
+  labels <- function(x, y, z, ...) {
+    lattice::panel.levelplot(x, y, z, ...)
+    lattice::ltext(x, y,
+                   labels = plotLabels,
+                   cex = cexCorval,
+                   col = colCorval,
+                   font = fontCorval)
+    if (!is.null(yLabelColors)) {
+        for (y_location in unique(y)) {
+          lattice::panel.rect(
+            xleft = 0.4, xright = 0.5,  # Position of the color boxes
+            ybottom = y_location - 0.5, ytop = y_location + 0.5,
+            col = substring(y_names[y_location], 3)
+          )
+        }
+    }
+  }
+  
+  lattice::levelplot(
+    data.matrix(corvals),
+    xlab = list(label = titleX,
+                cex = cexTitleX,
+                rot = rotTitleX,
+                col = colTitleX,
+                font = fontTitleX),
+    ylab = list(label = titleY,
+                cex = cexTitleY,
+                rot = rotTitleY,
+                col = colTitleY,
+                font = fontTitleY),
+    panel = labels,
+    pretty = TRUE,
+    par.settings = list(panel.background = list(col = colFrame)),
+    scales = list(
+      x = list(cex = cexLabX,
+               rot = rotLabX,
+               col = colLabX,
+               font = fontLabX),
+      y = list(cex = cexLabY,
+               rot = rotLabY,
+               col = colLabY,
+               font = fontLabY),
+      tck = axisTicks,
+      alternating = posLab),
+    aspect = "fill",
+    col.regions = cols,
+    cuts = 100,
+    at = seq(iLowerRange, iUpperRange, 0.01),
+    main = list(label = main,
+                cex = cexMain,
+                rot = rotMain,
+                col = colMain,
+                font = fontMain),
+    colorkey = list(space = posColKey,
+                    labels = list(cex = cexLabColKey)))
+}
+
+
+pca_dendro_stage <- function(counts_table) {
+  sample_tree = hclust(dist(counts_table), method = "average")
+  
+  n_genes = ncol(counts_table)
+  n_samples = nrow(counts_table)
+  
+  sex <- substring(str_extract(rownames(counts_table), regex('_[A-Z]')), 2, 2)
+  sex[sex == 'M'] <- 'Male'
+  sex[sex == 'F'] <- 'Female'
+  sex[sex == 'J'] <- 'Juvenile'
+  names(sex) <- rownames(counts_table)
+  stage <- substring(str_extract(rownames(counts_table), regex('_.*')), 2)
+  
+  trait_colours <- data.frame(sex = sex, row.names = rownames(counts_table))
+  trait_colours$colour <- NA
+  trait_colours$colour[trait_colours$sex == 'Male'] <- 'blue'
+  trait_colours$colour[trait_colours$sex == 'Female'] <- 'red'
+  trait_colours$colour[trait_colours$sex == 'Juvenile'] <- 'grey'
+  
+  plotDendroAndColors(sample_tree, data.frame(Sex = trait_colours$colour),
+                      groupLabels = c('Sex'), 
+                      main = "Sample dendrogram and trait heatmap")
+  
+  traits <- as.data.frame(cbind(sex, stage))
+  
+  traits <- binarise_phenotype_data(traits)
+  
+  pca <- prcomp(counts_table)
+  pca_data <- pca$x
+  
+  pca_var <- pca$sdev^2
+  pca_var_percent <- round(pca_var/sum(pca_var) * 100, digits=2)
+  
+  pca_data <- cbind(pca_data, trait_colours)
+  
+  fig <- ggplot(pca_data, aes(PC1, PC2, color=sex)) +
+    geom_point() + 
+    geom_text(label=rownames(pca_data)) + 
+    labs(
+      x = paste0('PC1: ', pca_var_percent[1], ' %'),
+      y = paste0('PC2: ', pca_var_percent[2], ' %')
+    )
+  print(fig)
+  
+  return(traits)
+}
+
+
+pca_dendro_month <- function(counts_table, sex_differentiated = FALSE) {
+  sample_tree = hclust(dist(counts_table), method = "average")
+  
+  month_data <- read.csv('month_data.csv')
+  
+  sex <- substring(str_extract(rownames(counts_table), regex('_[A-Z]')), 2, 2)
+  sex[sex == 'M'] <- 'Male'
+  sex[sex == 'F'] <- 'Female'
+  sex[sex == 'J'] <- 'Juvenile'
+  names(sex) <- rownames(counts_table)
+  
+  trait_colours <- data.frame(sex = sex, row.names = rownames(counts_table))
+  trait_colours$colour <- NA
+  trait_colours$colour[trait_colours$sex == 'Male'] <- 'blue'
+  trait_colours$colour[trait_colours$sex == 'Female'] <- 'red'
+  trait_colours$colour[trait_colours$sex == 'Juvenile'] <- 'grey'
+  
+  plotDendroAndColors(sample_tree, data.frame(Sex = trait_colours$colour),
+                      groupLabels = c('Sex'), 
+                      main = "Sample dendrogram and trait heatmap")
+  
+  samples <- as.numeric(sub('.', '', str_extract(rownames(counts_table), regex('(^X)[0-9]{0,3}'))))
+  month_data <- month_data[match(samples, month_data$sample),]
+  month <- as.numeric(substring(str_extract(month_data$date, regex('/[0-9]{2}/')), 2, 3))
+  
+  if (sex_differentiated) {
+    sex_letter <- substring(sex, 1, 1)
+    month <- paste(sex_letter, month, sep='')
+  }
+  
+  traits <- as.data.frame(cbind(sex, month))
+  traits <- binarise_phenotype_data(traits)
+  
+  col_order <- as.numeric(c(-2, -1, colnames(traits)[3:length(colnames(traits))]))
+  traits <- traits[,colnames(traits)[order(col_order)]]
+  
+  pca <- prcomp(counts_table)
+  pca_data <- pca$x
+  
+  pca_var <- pca$sdev^2
+  pca_var_percent <- round(pca_var/sum(pca_var) * 100, digits=2)
+  
+  pca_data <- cbind(pca_data, trait_colours)
+  
+  fig <- ggplot(pca_data, aes(PC1, PC2, color=sex)) +
+    geom_point() + 
+    geom_text(label=rownames(pca_data)) + 
+    labs(
+      x = paste0('PC1: ', pca_var_percent[1], ' %'),
+      y = paste0('PC2: ', pca_var_percent[2], ' %')
+    )
+  print(fig)
+  
+  return(traits)
+}
+

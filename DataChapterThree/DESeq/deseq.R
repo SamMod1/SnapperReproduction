@@ -11,7 +11,7 @@ LOG_CHANGE_CUTOFF <- 1
 EXPRESSION_CUTOFF <- 1 # If the expression cutoff fraction number of samples is below this the gene is removed
 EXPRESSION_CUTOFF_FRACTION <- 1/2 # Fraction of samples with no expression to filter out
 COUNTS_FILES <- '/DataChapterThree/Data/salmon.merged.gene_counts_%tissue.tsv'
-OUTPUT_DIR <- 'Results'
+OUTPUT_DIR <- 'ResultsStage'
 SAMPLE_METADATA <- 'DataChapterOne/Data/sampling_data.csv'
 
 ANALYSES <- list(list('gonad'), list('pit', 'mid', 'brain'))
